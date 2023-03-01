@@ -1,11 +1,17 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.scss";
-import Header from "./Components/Header";
+import Layout from "./Layout";
+import Pocetna from "./Pages/Pocetna";
+import OApartmanu from "./Pages/OApartmanu";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Pocetna />} />
+        <Route path="/oapartmanu" element={<OApartmanu />} />
+      </Route>
+    </Routes>
   );
 }
 
