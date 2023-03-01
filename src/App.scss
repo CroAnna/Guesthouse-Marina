@@ -77,11 +77,11 @@ font-family: 'Inter', sans-serif;
 }
 
 // za mobitel
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 975px) {
   .header {
     & .header-items {
       display: block;
-      width: 50%;
+      width: 55%;
       & .image {
         & img {
           width: 130px;
@@ -105,7 +105,6 @@ font-family: 'Inter', sans-serif;
           color: var(--lightgreen);
           padding: 20px;
           border-radius: 10px;
-          margin-left: 10px;
           color: var(--bg_color);
           margin-top: 10px;
           cursor: pointer;
@@ -113,10 +112,15 @@ font-family: 'Inter', sans-serif;
         & .nav-bar {
           background-color: var(--light_wood);
           position: relative;
-          // display: block;
           & a {
             display: block;
             text-align: center;
+            text-decoration: none;
+            word-spacing: 5px;
+            padding: 15px;
+            font-family: "Imprima", sans-serif;
+            font-weight: bold;
+            color: var(--dark_blue);
           }
         }
       }

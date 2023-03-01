@@ -8,6 +8,9 @@ const NavbarMobile = () => {
   const navHandler = () => {
     setOpenNav(!openNav);
   };
+  const closeNav = () => {
+    setOpenNav(false);
+  };
 
   return (
     <div className="navigation-mobile">
@@ -24,7 +27,7 @@ const NavbarMobile = () => {
         />
       </div>
       <div>
-        <nav className={openNav ? "nav-bar" : "hidden "}>
+        <nav className={openNav ? "nav-bar" : "hidden "} onClick={closeNav}>
           <Link to="/">Pocetna</Link>
           <Link to="/oapartmanu">O apartmanu</Link>
           <Link to="/cjenik">Cjenik</Link>
