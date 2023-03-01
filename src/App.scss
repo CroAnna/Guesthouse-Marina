@@ -80,11 +80,51 @@ font-family: 'Inter', sans-serif;
 @media only screen and (max-width: 480px) {
   .header {
     & .header-items {
-      margin: 0 auto;
-      width: 80%;
-      & img {
-        width: 130px;
+      display: block;
+      width: 50%;
+      & .image {
+        & img {
+          width: 130px;
+        }
+      }
+      & .mobile {
+        & .icons {
+          float: right;
+        }
+        & .iconBar {
+          &.abs {
+            position: absolute;
+            z-index: 1;
+          }
+          &.fixed {
+            position: absolute;
+          }
+          background-color: var(--middle_wood);
+          width: 12px;
+          height: 12px;
+          color: var(--lightgreen);
+          padding: 20px;
+          border-radius: 10px;
+          margin-left: 10px;
+          color: var(--bg_color);
+          margin-top: 10px;
+          cursor: pointer;
+        }
+        & .nav-bar {
+          background-color: var(--light_wood);
+          position: relative;
+          // display: block;
+          & a {
+            display: block;
+            text-align: center;
+          }
+        }
       }
     }
   }
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
 }
