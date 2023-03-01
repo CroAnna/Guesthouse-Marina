@@ -1,7 +1,7 @@
 import React from "react";
 
 const Cjenik = () => {
-  return <div>Cjenik</div>;
+  return <div className="page">Cjenik</div>;
 };
 
 export default Cjenik;

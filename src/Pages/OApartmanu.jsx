@@ -2,7 +2,7 @@ import React from 'react'
 
 const OApartmanu = () => {
   return (
-    <div>OApartmanu</div>
+    <div className="page">OApartmanu</div>
   )
 }
 

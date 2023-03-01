@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Pocetna = () => {
-  return (
-    <div>Pocetna</div>
-  )
-}
+  return <div className="page">Pocetna</div>;
+};
 
-export default Pocetna
+export default Pocetna;

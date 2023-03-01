@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const OMjestu = () => {
-  return (
-    <div>OMjestu</div>
-  )
-}
+  return <div className="page">OMjestu</div>;
+};
 
-export default OMjestu
+export default OMjestu;
