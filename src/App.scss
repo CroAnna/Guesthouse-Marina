@@ -18,8 +18,11 @@ font-family: 'Inter', sans-serif;
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-
+body {
+  background-color: var(--bg_color);
+}
 .page {
   background-color: var(--bg_color);
 }
@@ -76,8 +79,42 @@ font-family: 'Inter', sans-serif;
   }
 }
 
+.pocetna {
+  & .perks-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 50px auto;
+    & .perk {
+      text-align: center;
+      width: 170px;
+      height: 180px;
+      padding-top: 20px;
+      box-shadow: 1px 1px 20px #8a8a8a;
+      background-color: var(--cream_light);
+      color: var(--dark_blue);
+      border-radius: 45px;
+      & .icon {
+        font-size: 6rem;
+      }
+      & .info {
+        width: 55%;
+        margin: 0 auto;
+        position: relative;
+        top: 20%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        & p {
+          font-size: larger;
+        }
+      }
+    }
+  }
+}
+
 // za mobitel
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 1049px) {
   .header {
     & .header-items {
       display: block;
