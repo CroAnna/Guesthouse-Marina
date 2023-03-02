@@ -34,7 +34,7 @@ const Perks = () => {
   return (
     <div className="perks-container">
       {perksList.map((perk, index) => (
-        <Perk perk={perk} />
+        <Perk perk={perk} key={index} />
       ))}
     </div>
   );
