@@ -164,6 +164,47 @@ body {
       }
     }
   }
+  & .main-images-container {
+    width: 100%;
+    background-color: var(--middle_blue);
+    text-align: center;
+    font-size: 1.4vw;
+    color: var(--cream_light);
+    padding: 10px;
+    & p {
+      line-height: 2vw;
+      width: 70%;
+      margin: 50px auto;
+    }
+    & .slider-container {
+      width: 80%;
+      margin: 0 auto;
+      & img {
+        margin: 0 20px;
+        border-radius: 15px;
+      }
+    }
+    & .arrow {
+      font-size: 50px;
+      padding: 20px;
+      cursor: pointer;
+      color: var(--lightgrey);
+      height: 400px;
+      display: flex;
+      align-items: center;
+    }
+    & button {
+      width: 40%;
+      background-color: var(--middle_wood);
+      color: var(--cream_light);
+      font-size: 1.5rem;
+      padding: 15px;
+      border-radius: 10px;
+      font-weight: 600;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  }
 }
 
 // za mobitel
