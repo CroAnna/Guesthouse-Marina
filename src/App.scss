@@ -13,6 +13,11 @@ font-family: 'Inter', sans-serif;
   --bg_color: #eeeeee;
 }
 
+::-webkit-scrollbar {
+  // da se navigacija ne gubi zbog razlicite sirine, makni ovo na kraju TODO
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -32,23 +37,18 @@ body {
   & .header-items {
     margin: 0 auto;
     width: 80%;
-    display: flex;
     position: relative;
-    // justify-content: space-between;
     & img {
       width: 14%;
       vertical-align: middle;
     }
     & .navigation-desktop {
-      // position: ;
       & nav {
         display: flex;
-        //background-color: yellow;
         text-align: center;
         word-spacing: 5px;
         padding: 5px;
         font-family: "Imprima", sans-serif;
-        top: 50%;
         font-size: 1.4rem;
         letter-spacing: 0.18rem;
         right: 0;
@@ -90,8 +90,6 @@ body {
     );
     margin: 20px auto;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     padding: 20px;
     border-radius: 30px;
     & .left {
@@ -203,6 +201,7 @@ body {
       font-weight: 600;
       margin-top: 25px;
       margin-bottom: 25px;
+      cursor: pointer;
     }
   }
 }
