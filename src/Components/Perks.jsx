@@ -6,7 +6,7 @@ import {
   faTree,
   faParking,
 } from "@fortawesome/free-solid-svg-icons";
-import Perk from "./Perk";
+import IconInfoItem from "./IconInfoItem";
 
 const Perks = () => {
   const perksList = [
@@ -34,7 +34,7 @@ const Perks = () => {
   return (
     <div className="perks-container">
       {perksList.map((perk, index) => (
-        <Perk perk={perk} key={index} />
+        <IconInfoItem item={perk} key={index} />
       ))}
     </div>
   );
