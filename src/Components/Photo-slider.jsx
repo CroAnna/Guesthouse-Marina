@@ -16,6 +16,7 @@ export default class PhotoSlider extends Component {
       slidesToScroll: 1,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
+      adaptiveHeight: true,
       responsive: [
         {
           // mobile
