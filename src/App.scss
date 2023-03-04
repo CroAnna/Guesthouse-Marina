@@ -208,9 +208,43 @@ body {
 }
 
 .cjenik {
+  & table {
+    margin: 30px auto;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #fff;
+    border-collapse: collapse;
+    & th {
+      background-color: var(--dark_blue);
+      color: var(--cream_light);
+      padding: 20px;
+    }
+    & td {
+      padding: 15px;
+    }
+    & tr {
+      border-top: 3px solid rgba(212, 212, 212, 0.5);
+    }
+  }
+  & .text-info {
+    border: 7px var(--light_wood) solid;
+    margin: 50px auto;
+    font-size: 1.2rem;
+    color: var(--dark_blue);
+    width: 60%;
+    border-radius: 30px;
+    padding: 10px 30px;
+    & p {
+      margin: 15px 0;
+      & a {
+        text-decoration: none;
+        color: var(--middle_wood);
+      }
+    }
+  }
   & .info-container {
     color: var(--middle_blue);
-    margin: 60px auto;
+    margin: 40px auto;
     font-size: 1.8rem;
     width: 30%;
     justify-content: center;
