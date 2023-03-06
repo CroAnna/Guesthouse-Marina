@@ -383,6 +383,41 @@ body {
   }
 }
 
+.footer-container {
+  margin-top: 80px;
+  background-color: var(--dark_blue);
+  & .footer-boxes {
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0px auto;
+    & .footer-box {
+      background-color: var(--middle_blue);
+      width: 30%;
+      padding: 25px 10px;
+      margin: 75px 0;
+      color: var(--cream_light);
+      & .box-title {
+        text-align: center;
+        font-size: 1.6vw;
+        font-weight: 600;
+      }
+      & .box-data {
+        margin: 15px;
+        padding: 10px;
+
+        & a {
+          display: block;
+          text-decoration: none;
+          color: var(--cream_light);
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
+
 // za mobitel
 @media only screen and (max-width: 1049px) {
   .header {
