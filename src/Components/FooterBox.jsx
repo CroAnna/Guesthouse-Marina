@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const FooterBox = ({ box }) => {
@@ -7,6 +8,8 @@ const FooterBox = ({ box }) => {
       <div className="box-data">
         {box.data.map((data, index) => (
           <a href={data.url} key={index}>
+            <FontAwesomeIcon className="icon" icon={data.icon} />
+            &nbsp;
             {data.name}
           </a>
         ))}

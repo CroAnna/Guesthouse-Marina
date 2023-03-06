@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import NavbarDesktop from "./Navbar-desktop";
-import NavbarMobile from "./Navbar-mobile";
+import NavbarDesktop from "./NavbarDesktop";
+import NavbarMobile from "./NavbarMobile";
 
 const Header = () => {
   // TODO smanji ovo
