@@ -209,7 +209,7 @@ body {
 
 .cjenik {
   & table {
-    margin: 30px auto;
+    margin: 50px auto;
     font-size: 1.2rem;
     text-align: center;
     background-color: #fff;
@@ -226,10 +226,13 @@ body {
       border-top: 3px solid rgba(212, 212, 212, 0.5);
     }
   }
+  & .popust {
+    text-align: center;
+  }
   & .text-info {
     border: 7px var(--light_wood) solid;
     margin: 50px auto;
-    font-size: 1.2rem;
+    font-size: 1.2vw;
     color: var(--dark_blue);
     width: 60%;
     border-radius: 30px;
@@ -245,19 +248,20 @@ body {
   & .info-container {
     color: var(--middle_blue);
     margin: 40px auto;
-    font-size: 1.8rem;
-    width: 30%;
+    font-size: 1.35rem;
+    width: 33%;
     justify-content: center;
     align-items: center;
     & .item {
       margin: 20px 0;
       display: flex;
+
       & .icon {
         width: 50px;
         margin-right: 20px;
       }
       & .info {
-        max-width: 370px;
+        max-width: 400px;
       }
     }
   }

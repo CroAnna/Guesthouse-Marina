@@ -5,6 +5,7 @@ import {
   faPhoneAlt,
   faEnvelope,
   faLongArrowAltRight,
+  faLongArrowAltLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Info = () => {
@@ -15,15 +16,19 @@ const Info = () => {
     },
     {
       icon: faPhoneAlt,
-      info: "Telefon: +385 91 123 456",
+      info: "Telefon: +385 98 284 532",
     },
     {
       icon: faEnvelope,
-      info: "E-mail: mail@gmail.com",
+      info: "E-mail: studioappmarina@gmail.com",
     },
     {
       icon: faLongArrowAltRight,
       info: "Check-in: 16:00-20:00",
+    },
+    {
+      icon: faLongArrowAltLeft,
+      info: "Check-out: do 11:00",
     },
   ];
   return (
