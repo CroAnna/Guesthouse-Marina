@@ -5,6 +5,10 @@ import Info from "../Components/Info";
 const Cjenik = () => {
   return (
     <div className="page cjenik">
+      <div className="title">
+        <h1>Cjenik</h1>
+        <hr className="short" />
+      </div>
       <table>
         <thead>
           <tr>
