@@ -10,7 +10,7 @@ font-family: 'Inter', sans-serif;
   --light_wood: #bc9d7f;
   --middle_wood: #ae6b39;
   --cream_light: #e3e0db;
-  --bg_color: #eeeeee;
+  --bg_color: #e3e3e3;
 }
 
 ::-webkit-scrollbar {
@@ -329,6 +329,18 @@ body {
           -ms-transform: translateY(-50%);
           transform: translateY(-50%);
         }
+      }
+    }
+
+    & .step-two {
+      & .bank-details-container {
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: 5px 5px 4px #a8a8a8;
+        width: fit-content;
+        background-color: var(--cream_light);
+        line-height: 1.8rem;
+        border-radius: 15px;
       }
     }
   }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BankDetails from "../Components/BankDetails";
 import ContactForm from "../Components/ContactForm";
 import Info from "../Components/Info";
 
@@ -45,6 +46,7 @@ const Kontakt = () => {
               zaprimljenog upita.
             </p>
           </div>
+          <BankDetails />
         </div>
         <div className="step-three">
           <div className="text">
