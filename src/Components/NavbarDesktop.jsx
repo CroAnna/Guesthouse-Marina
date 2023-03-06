@@ -5,7 +5,7 @@ const NavbarDesktop = () => {
   return (
     <div className="navigation-desktop">
       <nav>
-        <Link to="/">Pocetna</Link>
+        <Link to="/">Početna</Link>
         <p>|</p>
         <Link to="/oapartmanu">O apartmanu</Link>
         <p>|</p>

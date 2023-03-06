@@ -28,7 +28,7 @@ const NavbarMobile = () => {
       </div>
       <div>
         <nav className={openNav ? "nav-bar" : "hidden "} onClick={closeNav}>
-          <Link to="/">Pocetna</Link>
+          <Link to="/">Početna</Link>
           <Link to="/oapartmanu">O apartmanu</Link>
           <Link to="/cjenik">Cjenik</Link>
           <Link to="/omjestu">O mjestu</Link>

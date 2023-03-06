@@ -282,7 +282,7 @@ body {
             gap: 20px;
             & label {
               display: block;
-              font-size: 1vw;
+              font-size: 1rem;
               color: #4d4d4d;
             }
             & .input-group {
@@ -295,7 +295,7 @@ body {
               width: 100%;
               display: block;
               border-radius: 10px;
-              font-size: 1vw;
+              font-size: 1rem;
               padding: 10px;
               margin: 10px 0 20px;
               box-shadow: 5px 5px 4px #cbcbcb;
@@ -310,6 +310,7 @@ body {
             }
           }
           & button {
+            cursor: pointer;
             background-color: var(--middle_wood);
             text-align: center;
             color: var(--cream_light);
@@ -319,6 +320,10 @@ body {
             font-size: 2vw;
             border-radius: 10px;
             margin: 15px 0;
+            &:hover {
+              transition: 1s;
+              background-color: var(--light_wood);
+            }
           }
         }
         & .info-container {

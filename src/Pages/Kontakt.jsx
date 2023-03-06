@@ -20,8 +20,11 @@ const Kontakt = () => {
               Pošaljite nam upit korištenjem sljedećeg kontakt formulara,
               e-mailom ili telefonom sa svim podacima (ime i prezime, e-mail,
               broj mobitela, datumi dolaska i odlaska i poruka) i kontaktirat
-              ćemo Vas u nakraćem mogućem roku. Podatke o cijeni i uvjetima
-              otkazivanja pronađite <Link to="/cjenik">ovdje</Link>.
+              ćemo Vas u nakraćem mogućem roku.
+            </p>
+            <p>
+              Podatke o cijeni i uvjetima otkazivanja pronađite{" "}
+              <Link to="/cjenik">ovdje</Link>.
             </p>
           </div>
           <div className="middle">

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Info from "../Components/Info";
+import PriceTable from "../Components/PriceTable";
 
 const Cjenik = () => {
   return (
@@ -9,38 +10,7 @@ const Cjenik = () => {
         <h1>Cjenik</h1>
         <hr className="short" />
       </div>
-      <table>
-        <thead>
-          <tr>
-            <th>Broj gostiju</th>
-            <th>Standardna cijena po nocenju *</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>58,00 €</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>65,00 €</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>75,00 €</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>78,00 €</td>
-          </tr>
-        </tbody>
-      </table>
-      <div className="popust">
-        <p>
-          * Na rezervacije ostvarene putem ove web stranice odobrava se 10%
-          popusta!
-        </p>
-      </div>
+      <PriceTable />
       <div className="text-info">
         <p>
           Cijena je za 1 noc, a u nju je ukljuceno sve sto apartman nudi, bez

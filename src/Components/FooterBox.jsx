@@ -8,7 +8,9 @@ const FooterBox = ({ box }) => {
       <div className="box-data">
         {box.data.map((data, index) => (
           <a href={data.url} key={index}>
-            <FontAwesomeIcon className="icon" icon={data.icon} />
+            {data.icon ? (
+              <FontAwesomeIcon className="icon" icon={data.icon} />
+            ) : null}
             &nbsp;
             {data.name}
           </a>

@@ -10,7 +10,7 @@ const MainInfo = () => {
         />
       </div>
       <div className="right">
-        <div className="right-cloud">Dobrodosli</div>
+        <div className="right-cloud">Dobrodošli</div>
         <div>
           <p>
             Studio apartman Marina nalazi se u Zamršju, mjestu 13 km istočno od
