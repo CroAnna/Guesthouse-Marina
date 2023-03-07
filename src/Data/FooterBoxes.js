@@ -34,8 +34,8 @@ export const footerBoxes = [
         data: [
             { name: "Zamrsje 9", url: "/kontakt" },
             { name: "47000 Karlovac, Croatia", url: "/kontakt" },
-            { name: "Telephone: +385 91 123 456,", url: "/kontakt" },
-            { name: "E-mail: mail@gmail.com", url: "/kontakt" },
+            { name: "Telephone: +385 98 284 532", url: "/kontakt" },
+            { name: "E-mail: studioappmarina@gmail.com", url: "/kontakt" },
         ],
     },
 ];

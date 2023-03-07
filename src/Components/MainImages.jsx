@@ -8,7 +8,7 @@ const MainImages = () => {
   return (
     <div className="main-images-container">
       <p>
-        Kod opremanja objekta vodili smo se željom da vam boravak bude što{" "}
+        Kod opremanja objekta vodili smo se željom da vam boravak bude što
         <b>ugodniji</b> i baš po vašoj mjeri, a naša je obveza i dalje
         kontinuirano se <b>usavršavati i unaprjeđivati</b>.
       </p>
