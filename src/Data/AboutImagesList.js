@@ -6,4 +6,7 @@ export const AboutImagesList = [
     { name: "about5.jpg" },
     { name: "about6.jpg" },
     { name: "about7.jpg" },
+    { name: "about8.jpg" },
+    { name: "about9.jpg" },
+    { name: "about10.jpg" },
 ];
