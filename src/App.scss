@@ -90,8 +90,9 @@ body {
       rgba(216, 157, 100, 1) 100%
     );
     margin: 20px auto;
+    margin-top: 80px;
     display: flex;
-    padding: 20px;
+    padding: 30px 20px;
     border-radius: 30px;
     & .left {
       position: relative;
@@ -203,6 +204,58 @@ body {
       margin-top: 25px;
       margin-bottom: 25px;
       cursor: pointer;
+    }
+  }
+  & .cover-container {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    & .cover-text-container {
+      width: 100%;
+      margin: 0 auto;
+      & .main-name {
+        font-family: "Alex Brush", cursive;
+        font-size: 6vw;
+        width: 60%;
+        padding: 30px;
+        color: var(--cream_light);
+        text-shadow: 5px 10px 10px #0f0f0f;
+        background-color: rgba($color: #bc9d7f, $alpha: 0.4);
+      }
+      & p {
+        color: var(--cream_light);
+        font-size: 1.2vw;
+        margin: 20px auto;
+        left: 0;
+        right: 0;
+        font-family: "Imprima", sans-serif;
+        letter-spacing: 3px;
+      }
+      & a {
+        width: 50%;
+        text-decoration: none;
+        color: var(--cream_light);
+      }
+
+      & .rezerviraj {
+        cursor: pointer;
+        margin-top: 60px;
+        border-radius: 15px;
+        width: 20%;
+        padding: 20px;
+        font-size: 1.5vw;
+        font-weight: 600;
+        background-color: var(--middle_blue);
+        box-shadow: 4px 4px 12px #020202;
+        & a {
+          width: 100%;
+          padding: 0;
+        }
+        &:hover {
+          background-color: var(--dark_blue);
+          transition: 1s;
+        }
+      }
     }
   }
 }
@@ -503,6 +556,7 @@ body {
         }
       }
     }
+
     & .perks-container {
       width: 90%;
       display: flex;
@@ -573,4 +627,20 @@ body {
 .hidden {
   visibility: hidden;
   display: none;
+}
+
+.move-up-middle {
+  // vertical align of div in the middle
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.center-abs {
+  // centriranje absolute diva
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }

@@ -1,6 +1,5 @@
 import { faFacebook, faBloggerB } from "@fortawesome/free-brands-svg-icons";
 
-
 export const footerBoxes = [
     {
         title: "Korisni linkovi",
