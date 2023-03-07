@@ -12,12 +12,14 @@ export default class CoverSlider extends Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: 1,
+      autoplaySpeed: 4000,
+      pauseOnHover: false,
     };
     return (
       <div className="cover-slider-container">
         <Slider {...settings} style={{ width: "100%" }}>
           {CoverImagesList.map((image, index) => (
-            <div>
+            <div key={index}>
               <img
                 style={{ width: "100%" }}
                 src={require("../Images/Cover/" + image.name)}
