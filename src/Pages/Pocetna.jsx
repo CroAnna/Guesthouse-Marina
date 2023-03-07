@@ -3,6 +3,7 @@ import Cover from "../Components/Cover";
 import MainImages from "../Components/MainImages";
 import MainInfo from "../Components/MainInfo";
 import Perks from "../Components/Perks";
+import WhatToVisit from "../Components/WhatToVisit";
 
 const Pocetna = () => {
   return (
@@ -11,6 +12,7 @@ const Pocetna = () => {
       <MainInfo />
       <Perks />
       <MainImages />
+      <WhatToVisit />
     </div>
   );
 };

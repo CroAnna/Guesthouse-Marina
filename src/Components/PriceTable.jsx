@@ -3,7 +3,6 @@ import React from "react";
 const PriceTable = () => {
   return (
     <div>
-      {" "}
       <table>
         <thead>
           <tr>

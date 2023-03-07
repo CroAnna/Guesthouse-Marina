@@ -258,6 +258,53 @@ body {
       }
     }
   }
+  & .what-to-visit-container {
+    width: 80%;
+    margin: 50px auto;
+    & p {
+      text-align: center;
+      font-size: 2vw;
+    }
+    & .top-part {
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      & table {
+        margin: 40px 20px;
+        font-size: 16px;
+        // text-align: center;
+        background-color: #fff;
+        border-collapse: collapse;
+        & th {
+          background-color: var(--dark_blue);
+          color: var(--cream_light);
+          padding: 10px;
+        }
+        & td {
+          padding: 10px 40px;
+        }
+        & tr {
+          border-top: 3px solid rgba(212, 212, 212, 0.5);
+        }
+      }
+      & .video-responsive {
+        margin: 40px 20px;
+        //overflow: hidden;
+        //padding-bottom: 56.25%;
+        //position: relative;
+        //height: 0;
+        //margin-top: 20px;
+        & iframe {
+          // left: 0;
+          //  top: 0;
+          //  height: 100%;
+          //  width: 100%;
+          // position: absolute;
+          // border-radius: 15px;
+        }
+      }
+    }
+  }
 }
 
 .cjenik {
