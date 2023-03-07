@@ -212,6 +212,7 @@ body {
       cursor: pointer;
     }
   }
+
   & .cover-container {
     text-align: center;
     margin: 0 auto;
@@ -264,6 +265,7 @@ body {
       }
     }
   }
+
   & .what-to-visit-container {
     width: 80%;
     margin: 50px auto 10px;
@@ -311,6 +313,7 @@ body {
       }
     }
   }
+
   & .btn-detalji-container {
     width: 60%;
     margin: 0 auto;
@@ -328,6 +331,11 @@ body {
       color: var(--dark_blue);
       box-shadow: 2px 4px 12px #ae6b39;
     }
+  }
+
+  & .map-container {
+    margin: 0 auto;
+    width: fit-content;
   }
 }
 
