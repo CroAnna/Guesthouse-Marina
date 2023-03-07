@@ -1,5 +1,6 @@
 import React from "react";
 import { perksList } from "../Data/PerksList";
+import BtnMoreDetails from "./BtnMoreDetails";
 
 import IconInfoItem from "./IconInfoItem";
 

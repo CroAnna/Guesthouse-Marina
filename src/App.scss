@@ -133,6 +133,7 @@ body {
       }
     }
   }
+
   & .perks-container {
     width: 70%;
     display: flex;
@@ -164,6 +165,11 @@ body {
       }
     }
   }
+  & .btnMore {
+    position: relative;
+    height: 130px;
+  }
+
   & .main-images-container {
     width: 100%;
     background-color: var(--middle_blue);
@@ -260,7 +266,7 @@ body {
   }
   & .what-to-visit-container {
     width: 80%;
-    margin: 50px auto;
+    margin: 50px auto 10px;
     & p {
       text-align: center;
       font-size: 2vw;
@@ -272,16 +278,15 @@ body {
       & table {
         margin: 40px 20px;
         font-size: 16px;
-        // text-align: center;
         background-color: #fff;
         border-collapse: collapse;
         & th {
           background-color: var(--dark_blue);
           color: var(--cream_light);
-          padding: 10px;
+          padding: 10px 20px 10px 0;
         }
         & td {
-          padding: 10px 40px;
+          padding: 10px 20px;
         }
         & tr {
           border-top: 3px solid rgba(212, 212, 212, 0.5);
@@ -289,20 +294,39 @@ body {
       }
       & .video-responsive {
         margin: 40px 20px;
-        //overflow: hidden;
-        //padding-bottom: 56.25%;
-        //position: relative;
-        //height: 0;
-        //margin-top: 20px;
-        & iframe {
-          // left: 0;
-          //  top: 0;
-          //  height: 100%;
-          //  width: 100%;
-          // position: absolute;
-          // border-radius: 15px;
-        }
       }
+    }
+    & .description {
+      width: 70%;
+      margin: 0 auto;
+      text-align: justify;
+      line-height: 2vw;
+      padding: 10px;
+      font-size: 1vw;
+      & a {
+        cursor: pointer;
+        color: var(--middle_wood);
+        font-weight: 600;
+        text-decoration: none;
+      }
+    }
+  }
+  & .btn-detalji-container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    height: 130px;
+    & .btnDetalji {
+      cursor: pointer;
+      position: absolute;
+      right: 0;
+      width: 200px;
+      font-size: 25px;
+      padding: 15px;
+      text-decoration: underline;
+      background-color: var(--cream_light);
+      color: var(--dark_blue);
+      box-shadow: 2px 4px 12px #ae6b39;
     }
   }
 }
@@ -489,7 +513,7 @@ body {
 }
 
 .footer-container {
-  margin-top: 80px;
+  margin-top: 40px;
   background-color: var(--dark_blue);
   & .footer-boxes {
     width: 70%;

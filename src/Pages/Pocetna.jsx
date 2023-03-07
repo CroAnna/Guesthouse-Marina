@@ -1,4 +1,5 @@
 import React from "react";
+import BtnMoreDetails from "../Components/BtnMoreDetails";
 import Cover from "../Components/Cover";
 import MainImages from "../Components/MainImages";
 import MainInfo from "../Components/MainInfo";
@@ -11,6 +12,7 @@ const Pocetna = () => {
       <Cover />
       <MainInfo />
       <Perks />
+      <BtnMoreDetails url={"/oapartmanu"} />
       <MainImages />
       <WhatToVisit />
     </div>

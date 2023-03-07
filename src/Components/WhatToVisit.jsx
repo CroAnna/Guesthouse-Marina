@@ -1,4 +1,5 @@
 import React from "react";
+import BtnMoreDetails from "./BtnMoreDetails";
 
 const WhatToVisit = () => {
   return (
@@ -31,7 +32,7 @@ const WhatToVisit = () => {
                 <td>94 km</td>
               </tr>
               <tr>
-                <td>Aquatika - Slatkovodni akvarij Karlovac</td>
+                <td>Aquatika - Slatkovodni akvarij</td>
                 <td>18 km</td>
               </tr>
               <tr>
@@ -64,6 +65,31 @@ const WhatToVisit = () => {
           ></iframe>
         </div>
       </div>
+      <p className="description">
+        Put do Karlovca moguć je automobilom, vlakom, autobusom i avionom.
+        &nbsp;
+        <b>Zračna luka Franjo Tuđman</b> udaljena je 50 km od objekta. Objekt je
+        smješten uz prometnicu D36 kojom se može doći do Zagreba, glavnog grada
+        Hrvatske, a u blizini objekta je izlaz i ulaz na autoput koji povezuje
+        sve djelove Hrvatske, te su Karlovac i okolica idealno mjesto za odmor
+        od dugog puta.
+      </p>
+      <p className="description">
+        Grad Karlovac i okolica nude brojne događaje tijekom godine, posjete
+        kulturnim i povijesnim znamenitostima, gastronomsku ponudu raznovrsnih
+        restorana, prirodne ljepote ... (<b>Plitvička jezera</b>, Rastoke,&nbsp;
+        <b>Aquarium Aquatika</b>, <b>Žitna lađa</b>...). Za više informacija što
+        nudi Karlovac i okolica molimo pogledati na stranicama{" "}
+        <a href="https://visitkarlovac.hr/">
+          Turističke zajednice Grada Karlovca
+        </a>
+        &nbsp;i&nbsp;
+        <a href="https://visitkarlovaccounty.hr/">
+          Turističke zajednice Karlovačke županije
+        </a>
+        .
+      </p>
+      <BtnMoreDetails url={"/omjestu"} />
     </div>
   );
 };
