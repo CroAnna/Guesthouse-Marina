@@ -42,7 +42,7 @@ export default class AboutImageSlider extends Component {
           {AboutImagesList.map((image, index) => (
             <div key={index}>
               <img
-                src={require("../Images/About/" + image.name)}
+                src={require("../Images/AboutApt/" + image.name)}
                 alt=""
                 style={{ width: "95%", height: "100%" }}
               />

@@ -587,6 +587,107 @@ body {
   }
 }
 
+.omjestu {
+  & .zamrsje-container {
+    & .cover {
+      width: 100%;
+      position: relative;
+      margin: 0 auto;
+      & img {
+        width: 100%;
+      }
+      & .description {
+        width: 90%;
+        margin: 0 auto;
+        padding: 25px;
+        background-color: rgba($color: #e3e0db, $alpha: 0.8);
+        color: var(--dark_blue);
+        font-size: 1.1rem;
+        top: 30%;
+        right: 0;
+        left: 0;
+        position: absolute;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 1;
+        & p {
+          text-align: justify;
+          letter-spacing: 1.5px;
+          padding: 10px;
+          font-weight: 500;
+        }
+      }
+    }
+    & .images {
+      width: 80%;
+      margin: 100px auto;
+      display: flex;
+      & img {
+        width: 33%;
+      }
+    }
+    & .text {
+      width: 60%;
+      margin: 0 auto;
+      & p {
+        padding: 20px;
+        text-align: justify;
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+        line-height: 150%;
+      }
+    }
+    & .visibabe {
+      display: flex;
+      width: 70%;
+      margin: 80px auto;
+      & .left {
+        width: 50%;
+        & img {
+          width: 100%;
+          height: 100%;
+          box-shadow: 0px 4px 12px #979797;
+        }
+      }
+      & .right {
+        width: 50%;
+        background-color: var(--cream_light);
+        padding: 20px;
+        box-shadow: 0px 4px 12px #979797;
+        position: relative;
+        & p {
+          text-align: justify;
+          font-size: 1.1rem;
+          letter-spacing: 1.5px;
+          line-height: 150%;
+          padding: 20px;
+        }
+      }
+    }
+    & .kapela {
+      display: flex;
+      width: 70%;
+      margin: 0 auto;
+      & .left {
+        width: 50%;
+      }
+      & .right {
+        width: 50%;
+        background-color: var(--cream_light);
+        box-shadow: 1px 1px 20px #3f3f3f;
+        padding: 20px;
+        position: relative;
+        & p {
+          position: absolute;
+          text-align: justify;
+          font-size: 1.2rem;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
 .title {
   margin: 30px auto;
   text-align: center;
@@ -660,7 +761,7 @@ body {
 }
 
 // za mobitel
-@media only screen and (max-width: 1049px) {
+@media only screen and (max-width: 1050px) {
   .header {
     & .header-items {
       display: block;
