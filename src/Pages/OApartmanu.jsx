@@ -1,9 +1,8 @@
 import React from "react";
 import AboutImageSlider from "../Components/AboutImageSlider";
+import AboutMoreInfo from "../Components/AboutMoreInfo";
 import AboutText from "../Components/AboutText";
 import ApartmentContent from "../Components/ApartmentContent";
-import CoverSlider from "../Components/CoverSlider";
-import PhotoSlider from "../Components/PhotoSlider";
 
 const OApartmanu = () => {
   return (
@@ -18,6 +17,7 @@ const OApartmanu = () => {
           <AboutImageSlider />
         </div>
         <ApartmentContent />
+        <AboutMoreInfo />
       </div>
     </div>
   );

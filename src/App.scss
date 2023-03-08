@@ -399,6 +399,8 @@ body {
           & ul {
             font-size: 1.8rem;
             text-decoration: underline;
+            margin-top: 50px;
+
             & li {
               padding: 5px;
               margin-left: 20px;
@@ -409,11 +411,32 @@ body {
           width: 75%;
           column-count: 3;
           & ul {
+            padding: 0 20px;
             margin: 0 auto;
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
+            & li {
+              padding: 5px;
+              font-size: 1.2rem;
+            }
           }
+        }
+      }
+    }
+    & .more-info-container {
+      width: 70%;
+      margin: 70px auto;
+      font-size: 5rem;
+      color: var(--middle_wood);
+      display: flex;
+      align-items: center;
+      & .info {
+        font-size: 1.5rem;
+        margin-left: 100px;
+        & p {
+          padding: 5px;
+          color: var(--dark_blue);
         }
       }
     }
