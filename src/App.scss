@@ -615,6 +615,7 @@ body {
           letter-spacing: 1.5px;
           padding: 10px;
           font-weight: 500;
+          line-height: 150%;
         }
       }
     }
@@ -637,7 +638,7 @@ body {
         line-height: 150%;
       }
     }
-    & .visibabe {
+    & .split {
       display: flex;
       width: 70%;
       margin: 80px auto;
@@ -665,25 +666,7 @@ body {
       }
     }
     & .kapela {
-      display: flex;
-      width: 70%;
-      margin: 0 auto;
-      & .left {
-        width: 50%;
-      }
-      & .right {
-        width: 50%;
-        background-color: var(--cream_light);
-        box-shadow: 1px 1px 20px #3f3f3f;
-        padding: 20px;
-        position: relative;
-        & p {
-          position: absolute;
-          text-align: justify;
-          font-size: 1.2rem;
-          padding: 20px;
-        }
-      }
+      width: 60%;
     }
   }
 }

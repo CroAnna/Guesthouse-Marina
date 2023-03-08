@@ -49,7 +49,7 @@ const Zamrsje = () => {
           (piknik je odlicna ideja).
         </p>
       </div>
-      <div className="visibabe">
+      <div className="split">
         <div className="left">
           <img
             src={require("../Images/Locations/Zamrsje/visibabe.jpg")}
@@ -75,6 +75,28 @@ const Zamrsje = () => {
         <img src={require("../Images/Locations/Zamrsje/kokosi.jpg")} alt="" />
         <img src={require("../Images/Locations/Zamrsje/grozde.jpg")} alt="" />
         <img src={require("../Images/Locations/Zamrsje/buce.jpg")} alt="" />
+      </div>
+      <div className="split kapela">
+        <div className="right">
+          <div className="move-up-middle">
+            <p>
+              Setajuci selom, mozete naici na tradicionalne drvene kuce koje
+              predstavljaju simbol Pokuplja iz 18. i 19. stoljeca. Izgradili su
+              ih najcesce sami seljaci od drveta hrasta.
+            </p>
+            <p>
+              Zastitnik sela je sveti Florijan pa se u sreditu sela nalazi
+              kapela svetog Florijana, a njegovo zvono svako jutro budi
+              stanovnike koje je poznato pod imenom zvona uz Kupu.
+            </p>
+          </div>
+        </div>
+        <div className="left ">
+          <img src={require("../Images/Locations/Zamrsje/kapela.jpg")} alt="" />
+        </div>
+      </div>
+      <div className="cover">
+        <img src={require("../Images/Locations/Zamrsje/zalazak.jpg")} alt="" />{" "}
       </div>
     </div>
   );
