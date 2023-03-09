@@ -13,7 +13,7 @@ export const footerBoxes = [
                 url: "https://visitkarlovac.hr/",
             },
             {
-                name: "Turistička zajednica karlovačke županije",
+                name: "",
                 url: "https://visitkarlovaccounty.hr/",
             },
         ],
