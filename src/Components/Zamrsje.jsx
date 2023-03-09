@@ -33,20 +33,20 @@ const Zamrsje = () => {
       </div>
       <div className="text">
         <p>
-          Glavne prednosti sela su stapanje s prirodom, miran zivot i uzivanje.
+          Glavne prednosti sela su stapanje s prirodom, miran život i uživanje.
           Tijekom ljetnih mjeseci stanovnici se kupaju u rijeci Kupi, na
-          kupalistu o kojem se sami brinu te ga ureduju. Osim toga, obala je
-          savrsena za pecanje rijecnih riba poput sarana i stuka, a taj
-          umirujuci sport idealan je za svakog tko se zeli opustati provodeci
+          kupalištu o kojem se sami brinu te ga uređuju. Osim toga, obala je
+          savršena za pecanje riječnih riba poput šarana i štuka, a taj
+          umirujući sport idealan je za svakog tko se želi opuštati provodeći
           vrijeme u prirodi.
         </p>
         <p>
-          Osim za ljude, mjesto je idealno za zivotinje, primjerice pse koji se
-          vole kupati jer rijeka nije brza te se ljubimci obozavaju kretati
-          plicakom i hvatati vilinske konjice koji lete oko lopoca. Od apartmana
-          do kupalista ima kilometar udaljenosti, a moguc je pristup i biciklom
-          i automobilom. Preporucamo provesti vrijeme na obali i uzivati u miru
-          (piknik je odlicna ideja).
+          Osim za ljude, mjesto je idealno za životinje, primjerice pse koji se
+          vole kupati jer rijeka nije brza te se ljubimci obožavaju kretati
+          plićakom i hvatati vilinske konjice koji lete oko lopoča. Od apartmana
+          do kupališta ima kilometar udaljenosti, a moguć je pristup i biciklom
+          te automobilom. Preporučamo provesti vrijeme na obali i uživati u miru
+          (piknik je odlična ideja).
         </p>
       </div>
       <div className="split">
@@ -60,13 +60,13 @@ const Zamrsje = () => {
           <div className="move-up-middle">
             <p>
               Oduvijek su se stanovnici bavili poljoprivredom, no posljednjih
-              godina sve vise obiteliji otvara vlastita obiteljska
-              poljoprivredna gospodarstva i zeli zivjeti uzgajajuci vlastite
+              godina sve više obitelji otvara vlastita obiteljska
+              poljoprivredna gospodarstva i želi živjeti uzgajajući vlastite
               proizvode.
             </p>
             <p>
-              Tako danas vrlo lako mozete kupiti namirnice poput jaja, raznih
-              vrsta povrca, dzemova itd. od susjednih obitelji.{" "}
+              Tako danas vrlo lako možete kupiti namirnice poput jaja, raznih
+              vrsta povrća, džemova itd. od susjednih obitelji.
             </p>
           </div>
         </div>
@@ -80,12 +80,12 @@ const Zamrsje = () => {
         <div className="right">
           <div className="move-up-middle">
             <p>
-              Setajuci selom, mozete naici na tradicionalne drvene kuce koje
-              predstavljaju simbol Pokuplja iz 18. i 19. stoljeca. Izgradili su
-              ih najcesce sami seljaci od drveta hrasta.
+              Šetajuci selom, možete naići na tradicionalne drvene kuće koje
+              predstavljaju simbol Pokuplja iz 18. i 19. stoljeća. Izgradili su
+              ih najčešće sami seljaci od drveta hrasta.
             </p>
             <p>
-              Zastitnik sela je sveti Florijan pa se u sreditu sela nalazi
+              Zaštitnik sela je sveti Florijan pa se u središtu sela nalazi
               kapela svetog Florijana, a njegovo zvono svako jutro budi
               stanovnike koje je poznato pod imenom zvona uz Kupu.
             </p>
@@ -96,7 +96,7 @@ const Zamrsje = () => {
         </div>
       </div>
       <div className="cover">
-        <img src={require("../Images/Locations/Zamrsje/zalazak.jpg")} alt="" />{" "}
+        <img src={require("../Images/Locations/Zamrsje/zalazak.jpg")} alt="" />
       </div>
     </div>
   );
