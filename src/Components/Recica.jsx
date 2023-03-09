@@ -4,7 +4,7 @@ const Recica = () => {
   return (
     <div className="recica-container">
       <div className="top-part">
-        <div className="split">
+        <div className="split-divs">
           <div className="old">
             <div className="color-overlay">
               <img
@@ -21,8 +21,7 @@ const Recica = () => {
                   svečanosti mještani obuku u tradicionalne rečičke nošnje.
                 </p>
                 <p>
-                  Nalazi se na brežuljku s prekrasnim pogledom na okolna polja i
-                  šume i rijeku, a okruženo je netaknutom prirodom.
+                  Nalazi se na brežuljku s prekrasnim pogledom na okolna polja, šume i rijeku, a okruženo je netaknutom prirodom.
                 </p>
               </div>
             </div>
@@ -33,6 +32,34 @@ const Recica = () => {
               alt=""
             />
             <img src={require("../Images/Locations/Recica/crkva.jpg")} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="bottom-part">
+        <div className="split">
+          <div className="left">
+            <img
+              src={require("../Images/Locations/Recica/nosnje.jpg")}
+              alt=""
+            />
+          </div>
+          <div className="right">
+            <div className="move-up-middle">
+              <p>
+                Rečica se spominje jos u 14. stoljeću, dok je grof Janko
+                Drašković u 17. stoljeću živio u dvorcu koji se ondje nalazi, a
+                simbol Rečice je rečicka ruza, crvene boje čiji je motiv vrlo
+                čest na bogato ukrašenima nošnjama.
+              </p>
+              <p>
+                KUD Rečica, koje ove godine slavi 100. obljetnicu i generacijma
+                održava tradiciju, prenoseći ju s koljena na koljeno, najstarije
+                je društvo u Karlovačkoj županiji. I dan danas njeguju izvorne
+                plesove, pjesme i običaje rečickog kraja uz zvukove tamburice i
+                violine, sudjelujući na manifestacijama kao čto su Đakovački
+                vezovi i Vinkovačke jeseni.
+              </p>
+            </div>
           </div>
         </div>
       </div>

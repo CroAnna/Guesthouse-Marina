@@ -60,9 +60,8 @@ const Zamrsje = () => {
           <div className="move-up-middle">
             <p>
               Oduvijek su se stanovnici bavili poljoprivredom, no posljednjih
-              godina sve više obitelji otvara vlastita obiteljska
-              poljoprivredna gospodarstva i želi živjeti uzgajajući vlastite
-              proizvode.
+              godina sve više obitelji otvara vlastita obiteljska poljoprivredna
+              gospodarstva i želi živjeti uzgajajući vlastite proizvode.
             </p>
             <p>
               Tako danas vrlo lako možete kupiti namirnice poput jaja, raznih
@@ -80,7 +79,7 @@ const Zamrsje = () => {
         <div className="right">
           <div className="move-up-middle">
             <p>
-              Šetajuci selom, možete naići na tradicionalne drvene kuće koje
+              Šetajući selom, možete naići na tradicionalne drvene kuće koje
               predstavljaju simbol Pokuplja iz 18. i 19. stoljeća. Izgradili su
               ih najčešće sami seljaci od drveta hrasta.
             </p>
