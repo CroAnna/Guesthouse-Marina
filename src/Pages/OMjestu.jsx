@@ -1,5 +1,6 @@
 import React from "react";
 import Karlovac from "../Components/Karlovac";
+import OtherLocations from "../Components/OtherLocations";
 import Recica from "../Components/Recica";
 import Zamrsje from "../Components/Zamrsje";
 
@@ -24,6 +25,10 @@ const OMjestu = () => {
         <hr className="short" />
       </div>
       <Karlovac />
+      <div className="title">
+        <h1>Ostale lokacije u blizini</h1>
+      </div>
+      <OtherLocations />
     </div>
   );
 };

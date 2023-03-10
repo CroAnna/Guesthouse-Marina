@@ -775,6 +775,39 @@ body {
       }
     }
   }
+  & .other-container {
+    & .location {
+      margin: 80px auto;
+      width: 100%;
+      position: relative;
+      &.zg {
+        width: 90%;
+      }
+      & img {
+        width: 100%;
+      }
+      & .description {
+        background-color: rgba($color: #cbcbcb, $alpha: 0.8);
+        position: absolute;
+        color: var(--dark_blue);
+        top: 70%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 1;
+        padding: 30px;
+        width: 60%;
+        text-align: center;
+        & h2 {
+          font-size: 2rem;
+        }
+        & p {
+          padding: 20px;
+          line-height: 150%;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
   & .split {
     display: flex;
     width: 70%;
