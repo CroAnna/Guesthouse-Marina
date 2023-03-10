@@ -5,6 +5,7 @@ import MainImages from "../Components/MainImages";
 import MainInfo from "../Components/MainInfo";
 import Map from "../Components/Map";
 import Perks from "../Components/Perks";
+import ScrollButton from "../Components/ScrollButton";
 import WhatToVisit from "../Components/WhatToVisit";
 
 const Pocetna = () => {

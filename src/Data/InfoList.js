@@ -9,7 +9,7 @@ import {
 export const infoList = [
     {
         icon: faMapMarkerAlt,
-        info: "Adresa: Zamrsje 9, 47000 Karlovac, Hrvatska",
+        info: "Adresa: Zamršje 9, 47000 Karlovac, Hrvatska",
     },
     {
         icon: faPhoneAlt,

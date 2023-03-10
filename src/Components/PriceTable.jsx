@@ -7,7 +7,7 @@ const PriceTable = () => {
         <thead>
           <tr>
             <th>Broj gostiju</th>
-            <th>Standardna cijena po nocenju *</th>
+            <th>Standardna cijena po noćenju *</th>
           </tr>
         </thead>
         <tbody>

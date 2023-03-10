@@ -13,12 +13,12 @@ const Cjenik = () => {
       <PriceTable />
       <div className="text-info">
         <p>
-          Cijena je za 1 noc, a u nju je ukljuceno sve sto apartman nudi, bez
+          Cijena je za 1 noć, a u nju je uključeno sve što apartman nudi, bez
           dodatnih troskova.
         </p>
         <p>
-          Dolazak u kucu za odmor / studio apartman Marina je od 16:00 do 20:00,
-          a odlazak do 11:00.
+          Dolazak u kuću za odmor / studio apartman Marina je predviđen od 16:00
+          do 20:00, a odlazak do 11:00.
         </p>
         <p>Akontacija je cijena jednog noćenja.</p>
         <p>
