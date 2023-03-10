@@ -9,7 +9,7 @@ const ApartmentContent = () => {
           <ul>
             <li>Kuhinja</li>
             <li>Dnevni boravak</li>
-            <li>Spavaca soba</li>
+            <li>Spavaća soba</li>
             <li>Kupaonica</li>
             <li>Terasa i travnjak</li>
           </ul>
@@ -24,7 +24,7 @@ const ApartmentContent = () => {
             <li>2 kreveta</li>
             <li>ormar</li>
             <li>stol i stolice</li>
-            <li>kutna garnitura koja je pomoćni lezaj</li>
+            <li>kutna garnitura koja je pomoćni ležaj</li>
             <li>perilica rublja</li>
             <li>pećnica</li>
             <li>hladnjak</li>

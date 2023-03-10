@@ -48,7 +48,7 @@ const Recica = () => {
               <p>
                 Rečica se spominje jos u 14. stoljeću, dok je grof Janko
                 Drašković u 17. stoljeću živio u dvorcu koji se ondje nalazi, a
-                simbol Rečice je rečicka ruza, crvene boje čiji je motiv vrlo
+                simbol Rečice je rečička ruža, crvene boje čiji je motiv vrlo
                 čest na bogato ukrašenima nošnjama.
               </p>
               <p>

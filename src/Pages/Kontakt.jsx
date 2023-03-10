@@ -26,6 +26,13 @@ const Kontakt = () => {
               Podatke o cijeni i uvjetima otkazivanja pronađite{" "}
               <Link to="/cjenik">ovdje</Link>.
             </p>
+            <p>
+              Podatke o dostupnosti možete dobiti kontaktiranjem nas pomoću ove
+              forme ili našoj službenoj&nbsp;
+              <a href="https://www.booking.com/hotel/hr/studio-apartman-marina-karlovac.hr.html">
+                Booking stranici
+              </a>
+            </p>
           </div>
           <div className="middle">
             <ContactForm />
