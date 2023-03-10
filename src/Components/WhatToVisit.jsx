@@ -56,8 +56,6 @@ const WhatToVisit = () => {
         </div>
         <div className="video-responsive">
           <iframe
-            width="820"
-            height="430"
             src="https://www.youtube.com/embed/M_GdkGoeuY4"
             title="Karlovac - destinacijski video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -311,6 +311,10 @@ body {
       }
       & .video-responsive {
         margin: 40px 20px;
+        & iframe {
+          width: 820px;
+          height: 100%;
+        }
       }
     }
     & .description {
@@ -351,6 +355,10 @@ body {
   & .map-container {
     margin: 0 auto;
     width: fit-content;
+    & iframe {
+      width: 800px;
+      height: 450px;
+    }
   }
 }
 
@@ -977,7 +985,6 @@ body {
       & .box-data {
         margin: 15px;
         padding: 10px;
-
         & a {
           display: block;
           text-decoration: none;
@@ -987,6 +994,27 @@ body {
       }
     }
   }
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+.move-up-middle {
+  // vertical align of div in the middle
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.center-abs {
+  // centriranje absolute diva
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 
 // za mobitel
@@ -1044,7 +1072,7 @@ body {
       display: block;
       width: 95%;
       padding: 15px;
-
+      margin-top: 100px;
       & .left {
         position: static;
         & img {
@@ -1056,7 +1084,6 @@ body {
       }
       & .right {
         padding: 0px;
-
         & .right-cloud {
           width: 90%;
           font-size: 3rem;
@@ -1102,10 +1129,12 @@ body {
     }
 
     & .main-images-container {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
+      margin-top: 40px;
       & p {
-        line-height: 6vw;
         width: 90%;
+        line-height: 150%;
+        text-align: justify;
         margin: 30px auto;
       }
       & .slider-container {
@@ -1115,10 +1144,12 @@ body {
         position: relative;
         & img {
           width: 80%;
+          border-radius: 10px;
         }
       }
       & .arrow {
         height: auto;
+        padding: 5px;
       }
 
       & button {
@@ -1134,26 +1165,97 @@ body {
         cursor: pointer;
       }
     }
+
+    & .cover-container {
+      position: relative;
+      & .cover-text-container {
+        top: 0%;
+        -ms-transform: translateY(15%);
+        transform: translateY(15%);
+        position: absolute;
+        & .main-name {
+          font-size: 11vw;
+          width: 100%;
+          padding: 5px;
+          background-color: transparent;
+        }
+        & p {
+          font-size: 2.5vw;
+          margin: 0px auto;
+        }
+        & .rezerviraj {
+          cursor: pointer;
+          margin-top: 20vw;
+          width: 70%;
+          padding: 15px 5px;
+          font-size: 5vw;
+          font-weight: 300;
+          background-color: var(--middle_blue);
+          box-shadow: 2px 2px 8px #868686;
+        }
+      }
+    }
+
+    & .what-to-visit-container {
+      width: 95%;
+      padding: 10px;
+      margin: 20px 10px;
+      & p {
+        font-size: 2rem;
+      }
+      & .top-part {
+        display: block;
+        width: 100%;
+        & table {
+          margin: 30px 0 0 0;
+        }
+        & .video-responsive {
+          margin: 40px auto;
+          & iframe {
+            width: 100%;
+            height: 170px;
+          }
+        }
+      }
+      & .description {
+        width: 100%;
+        font-size: 4.5vw;
+        line-height: 150%;
+      }
+    }
+
+    & .btn-detalji-container {
+      height: 50px;
+    }
+
+    & .map-container {
+      & iframe {
+        width: fit-content;
+        height: 400px;
+      }
+    }
   }
-}
-
-.hidden {
-  visibility: hidden;
-  display: none;
-}
-
-.move-up-middle {
-  // vertical align of div in the middle
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 1;
-}
-
-.center-abs {
-  // centriranje absolute diva
-  margin: 0 auto;
-  left: 0;
-  right: 0;
+  .footer-container {
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+    & .footer-boxes {
+      display: block;
+      width: 100%;
+      & .footer-box {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding: 5px;
+        width: 100%;
+        & .box-title {
+          padding: 10px;
+          font-size: 1.5rem;
+        }
+        & .box-data {
+          padding: 10px;
+          margin: 0px;
+        }
+      }
+    }
+  }
 }
