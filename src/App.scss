@@ -1235,6 +1235,89 @@ body {
       }
     }
   }
+  .oapartmanu {
+    & .about-container {
+      & .about-top-container {
+        width: 100%;
+        display: block;
+        & .about-text {
+          width: 100%;
+          & p {
+            font-size: 1rem;
+            word-spacing: 0rem;
+            line-height: 150%;
+          }
+        }
+        & .slider-container {
+          width: 90%;
+          margin: 0 auto;
+          & img {
+            margin: 0 auto;
+            border-radius: 5px;
+          }
+        }
+      }
+
+      & .content-container {
+        & .content-title {
+          padding: 20px;
+        }
+        & .groups {
+          display: block;
+          width: 95%;
+          margin: 0px auto;
+          padding: 0px 0 3px;
+          & .left,
+          .right {
+            padding: 5px;
+          }
+          & .left {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            & ul {
+              font-size: 1.2rem;
+              text-decoration: underline;
+              margin-top: 0px;
+              margin-left: 20px;
+              & li {
+                padding: 5px;
+                margin-left: 20px;
+              }
+            }
+          }
+          & .right {
+            width: 100%;
+            column-count: 1;
+            margin-bottom: 10px;
+            padding: 10px;
+            & ul {
+              & li {
+                margin-left: 20px;
+              }
+            }
+          }
+        }
+      }
+      & .more-info-container {
+        width: 100%;
+        margin: 10px auto;
+        font-size: 3rem;
+        display: block;
+        text-align: center;
+
+        & .info {
+          text-align: left;
+          margin: 0 20px;
+          font-size: 1.1rem;
+          & p {
+            padding: 5px;
+            color: var(--dark_blue);
+          }
+        }
+      }
+    }
+  }
   .footer-container {
     margin-top: 20px;
     padding: 20px;
