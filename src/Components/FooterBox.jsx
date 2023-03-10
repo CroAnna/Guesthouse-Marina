@@ -11,7 +11,7 @@ const FooterBox = ({ box }) => {
             {data.icon ? (
               <FontAwesomeIcon className="icon" icon={data.icon} />
             ) : null}
-            &nbsp;
+            {data.icon ? " " : null}
             {data.name}
           </a>
         ))}
