@@ -28,7 +28,7 @@ const Kontakt = () => {
             </p>
             <p>
               Podatke o dostupnosti možete dobiti kontaktiranjem nas pomoću ove
-              forme ili našoj službenoj&nbsp;
+              forme ili na našoj službenoj&nbsp;
               <a href="https://www.booking.com/hotel/hr/studio-apartman-marina-karlovac.hr.html">
                 Booking stranici
               </a>

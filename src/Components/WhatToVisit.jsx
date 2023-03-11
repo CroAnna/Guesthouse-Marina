@@ -16,39 +16,59 @@ const WhatToVisit = () => {
             </thead>
             <tbody>
               <tr>
-                <td>Karlovac</td>
+                <td>
+                  <a href="https://www.karlovac.hr/grad/o-gradu-2728/2728">
+                    Karlovac
+                  </a>
+                </td>
                 <td>13 km</td>
               </tr>
               <tr>
-                <td>Rijeka Kupa</td>
+                <td>
+                  <a href="https://hr.wikipedia.org/wiki/Kupa"> Rijeka Kupa</a>
+                </td>
                 <td>600 m</td>
               </tr>
               <tr>
-                <td>Zitna lada</td>
+                <td>
+                  <a href="https://aurora-experience.com/">Žitna lada</a>
+                </td>
                 <td>11 km</td>
               </tr>
               <tr>
-                <td>Plitvicka jezera</td>
+                <td>
+                  <a href="https://np-plitvicka-jezera.hr/">Plitvička jezera</a>
+                </td>
                 <td>94 km</td>
               </tr>
               <tr>
-                <td>Aquatika - Slatkovodni akvarij</td>
+                <td>
+                  <a href="https://www.aquariumkarlovac.com/">Aquatika - Slatkovodni akvarij</a>
+                </td>
                 <td>18 km</td>
               </tr>
               <tr>
-                <td>Zagreb Airport Franjo Tuđman</td>
+                <td>
+                  <a href="https://www.zagreb-airport.hr/">Zagreb Airport Franjo Tuđman</a>
+                </td>
                 <td>50 km</td>
               </tr>
               <tr>
-                <td>Autobusni kolodvor Karlovac</td>
+                <td>
+                 Autobusni kolodvor Karlovac
+                </td>
                 <td>15 km</td>
               </tr>
               <tr>
-                <td>Zeljeznicki kolodvor Karlovac</td>
+                <td>
+                 Željeznički kolodvor Karlovac
+                </td>
                 <td>14 km</td>
               </tr>
               <tr>
-                <td>Stari grad Dubovac</td>
+                <td>
+                  <a href="https://visitkarlovac.hr/stari-grad-dubovac/">Stari grad Dubovac</a>
+                </td>
                 <td>17 km</td>
               </tr>
             </tbody>

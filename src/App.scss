@@ -304,6 +304,10 @@ body {
         }
         & td {
           padding: 10px 20px;
+          & a {
+            text-decoration: none;
+            color: var(--dark_blue);
+          }
         }
         & tr {
           border-top: 3px solid rgba(212, 212, 212, 0.5);
@@ -751,41 +755,49 @@ body {
     }
     & .attractions-container {
       & .attraction {
-        color: var(--cream_light);
         width: 70%;
         margin: 40px auto;
-        display: flex;
-        gap: 20px;
+        & a {
+          color: var(--cream_light);
+          display: flex;
+          gap: 20px;
+          text-decoration: none;
+          & .text {
+            position: relative;
+            width: 50%;
+            & h2 {
+              font-size: 2rem;
+              letter-spacing: 2px;
+              margin-bottom: 15px;
+            }
+            & p {
+              font-size: 1.1rem;
+              line-height: 150%;
+              letter-spacing: 1.5px;
+            }
+            & .inside {
+              padding: 50px;
+            }
+          }
+          & .image {
+            width: 50%;
+            display: block;
+            padding: 40px;
+            & img {
+              width: 100%;
+              height: 100%;
+            }
+            & p {
+              font-size: 0.6rem;
+              text-align: right;
+            }
+          }
+        }
         &:nth-child(odd) {
           background-color: var(--middle_wood);
         }
         &:nth-child(even) {
           background-color: var(--middle_blue);
-        }
-        & .text {
-          position: relative;
-          width: 50%;
-          & h2 {
-            font-size: 2rem;
-            letter-spacing: 2px;
-            margin-bottom: 15px;
-          }
-          & p {
-            font-size: 1.1rem;
-            line-height: 150%;
-            letter-spacing: 1.5px;
-          }
-          & .inside {
-            padding: 50px;
-          }
-        }
-        & .image {
-          width: 50%;
-          & img {
-            padding: 40px;
-            width: 100%;
-            height: 100%;
-          }
         }
       }
       & .more-info {
@@ -1431,19 +1443,26 @@ body {
           width: 100%;
           margin: 20px auto;
           display: block;
-          & .text {
-            position: static;
-            width: 100%;
-            & .inside {
-              padding: 20px;
+          & a {
+            display: block;
+            & .text {
+              text-decoration: none;
+              position: static;
+              width: 100%;
+              & .inside {
+                text-decoration: none;
+                padding: 25px 15px;
+              }
             }
-          }
-          & .image {
-            width: 100%;
-            height: 100%;
-            & img {
+            & .image {
+              width: 100%;
+              height: 100%;
               padding: 0px;
-              padding-bottom: 5px;
+              & img {
+                padding: 0;
+                padding: 0px;
+                padding-bottom: 5px;
+              }
             }
           }
         }
