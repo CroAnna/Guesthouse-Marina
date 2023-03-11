@@ -35,6 +35,21 @@ body {
   background-color: var(--bg_color);
 }
 
+.lang-container {
+  position: relative;
+  & .lang-icons {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    display: flex;
+    cursor: pointer;
+    & img {
+      margin: 5px;
+      width: 40px;
+    }
+  }
+}
+
 .header {
   background-color: var(--cream_light);
   & .header-items {
@@ -1031,18 +1046,33 @@ body {
 
 // za mobitel
 @media only screen and (max-width: 1050px) {
+  .lang-container {
+    & .lang-icons {
+      right: auto;
+      left: 0;
+
+      & img {
+        margin: 15px 5px;
+        width: 40px;
+      }
+    }
+  }
   .header {
     & .header-items {
       display: block;
-      width: 55%;
+      width: 60%;
+      margin: 0 auto;
       & .image {
+        margin: 0 auto;
         & img {
-          width: 130px;
+          width: 150px;
+          margin-left: 20%;
         }
       }
       & .mobile {
         & .icons {
           float: right;
+          margin: 5px -10px;
         }
         & .iconBar {
           &.abs {
@@ -1491,7 +1521,6 @@ body {
           transform: translateY(0%);
           padding: 10px;
           width: 100%;
-
           &.jad {
             width: 100%;
           }

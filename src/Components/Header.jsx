@@ -29,8 +29,10 @@ const Header = () => {
           </div>
         )}
         <Link to="/" className="image">
-          {" "}
-          <img src={require("../Images/logo_marina.png")} alt="logo-marina" />
+          <img
+            src={require("../Images/logo_marina.png")}
+            alt="logo-marina"
+          />
         </Link>
       </div>
     </div>
