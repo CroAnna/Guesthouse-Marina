@@ -1540,6 +1540,59 @@ body {
       }
     }
   }
+  .kontakt {
+    & .step-container {
+      width: 100%;
+      & .text {
+        & p {
+          font-size: 1.1rem;
+          line-height: 150%;
+          &.step-title {
+            font-size: 1.5rem;
+            margin: 20px;
+            margin-top: 40px;
+          }
+        }
+      }
+      & .step-one {
+        & .middle {
+          width: 100%;
+          display: block;
+          & .contact-form-container {
+            width: 90%;
+            margin: 40px auto;
+            & .inputs {
+              display: block;
+              & label {
+                font-size: 1.1rem;
+              }
+              & textarea {
+                height: 250px;
+              }
+            }
+            & button {
+              padding: 10px;
+              font-size: 2rem;
+            }
+          }
+          & .info-container {
+            position: static;
+            top: 0%;
+            -ms-transform: translateY(0%);
+            transform: translateY(0%);
+          }
+        }
+      }
+      & .step-two {
+        & .bank-details-container {
+          margin: 0 20px;
+        }
+      }
+      & .step-three {
+        margin-bottom: 40px;
+      }
+    }
+  }
   .footer-container {
     margin-top: 20px;
     padding: 20px;
