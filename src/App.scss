@@ -1318,6 +1318,26 @@ body {
       }
     }
   }
+  .cjenik {
+    & table {
+      margin: 10px;
+      font-size: 1.1rem;
+      & th {
+        background-color: var(--dark_blue);
+        color: var(--cream_light);
+        padding: 10px;
+      }
+      & td {
+        padding: 10px;
+      }
+    }
+    & .text-info {
+      margin: 10px auto;
+      font-size: 1rem;
+      width: 95%;
+      padding: 5px 20px;
+    }
+  }
   .omjestu {
     & .title {
       margin: 30px 0;
@@ -1548,5 +1568,28 @@ body {
     top: 0%;
     -ms-transform: translateY(0%);
     transform: translateY(0%);
+  }
+  .info-container {
+    margin: 0;
+    position: static;
+    top: 0%;
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+  .info-container {
+    margin: 10px auto;
+    font-size: 1.1rem;
+    width: 100%;
+    & .item {
+      display: flex;
+      & .icon {
+        width: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+      & .info {
+        max-width: 400px;
+      }
+    }
   }
 }
