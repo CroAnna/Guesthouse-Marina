@@ -5,6 +5,8 @@ import ContactForm from "../Components/ContactForm";
 import Info from "../Components/Info";
 
 const Kontakt = () => {
+ 
+
   return (
     <div className="page kontakt">
       <div className="title">
