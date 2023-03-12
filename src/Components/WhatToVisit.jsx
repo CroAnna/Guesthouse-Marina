@@ -1,17 +1,19 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import BtnMoreDetails from "./BtnMoreDetails";
 
 const WhatToVisit = () => {
+  const { t } = useTranslation();
   return (
     <div className="what-to-visit-container">
-      <p>Što posjetiti u blizini?</p>
+      <p>{t("what_to_visit_nearby")}</p>
       <div className="top-part">
         <div className="table">
           <table>
             <thead>
               <tr>
-                <th>Atrakcija</th>
-                <th>Udaljenost</th>
+                <th>{t("attraction")}</th>
+                <th>{t("distance")}</th>
               </tr>
             </thead>
             <tbody>
@@ -25,49 +27,55 @@ const WhatToVisit = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="https://hr.wikipedia.org/wiki/Kupa"> Rijeka Kupa</a>
+                  <a href="https://hr.wikipedia.org/wiki/Kupa">
+                    {t("river_kupa")}
+                  </a>
                 </td>
                 <td>600 m</td>
               </tr>
               <tr>
                 <td>
-                  <a href="https://aurora-experience.com/">Žitna lada</a>
+                  <a href="https://aurora-experience.com/">{t("grain_boat")}</a>
                 </td>
                 <td>11 km</td>
               </tr>
               <tr>
                 <td>
-                  <a href="https://np-plitvicka-jezera.hr/">Plitvička jezera</a>
+                  <a href="https://np-plitvicka-jezera.hr/">
+                    {t("plitvice_lakes")}
+                  </a>
                 </td>
                 <td>94 km</td>
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.aquariumkarlovac.com/">Aquatika - Slatkovodni akvarij</a>
+                  <a href="https://www.aquariumkarlovac.com/">
+                    {t("aquatika")}
+                  </a>
                 </td>
                 <td>18 km</td>
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.zagreb-airport.hr/">Zagreb Airport Franjo Tuđman</a>
+                  <a href="https://www.zagreb-airport.hr/">
+                    {t("zagreb_airport")}
+                  </a>
                 </td>
                 <td>50 km</td>
               </tr>
               <tr>
-                <td>
-                 Autobusni kolodvor Karlovac
-                </td>
+                <td>{t("ak_karlovac")}</td>
                 <td>15 km</td>
               </tr>
               <tr>
-                <td>
-                 Željeznički kolodvor Karlovac
-                </td>
+                <td>{t("train_station_karlovac")}</td>
                 <td>14 km</td>
               </tr>
               <tr>
                 <td>
-                  <a href="https://visitkarlovac.hr/stari-grad-dubovac/">Stari grad Dubovac</a>
+                  <a href="https://visitkarlovac.hr/stari-grad-dubovac/">
+                    {t("old_town_dubovac")}
+                  </a>
                 </td>
                 <td>17 km</td>
               </tr>

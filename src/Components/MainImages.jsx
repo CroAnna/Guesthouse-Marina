@@ -3,20 +3,22 @@ import React from "react";
 import PhotoSlider from "./PhotoSlider";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const MainImages = () => {
+  const { t } = useTranslation();
   return (
     <div className="main-images-container">
       <p>
-        Kod opremanja objekta vodili smo se željom da vam boravak bude što
-        &nbsp;
-        <b>ugodniji</b> i baš po vašoj mjeri, a naša je obveza i dalje
-        kontinuirano se <b>usavršavati i unaprjeđivati</b>.
+        {t("main_img_container_1")}
+        <b>{t("main_img_container_2")}</b>
+        {t("main_img_container_3")}
+        <b>{t("main_img_container_4")}</b>.
       </p>
       <PhotoSlider />
       <Link to="/oapartmanu">
         <button>
-          Pogledaj galeriju fotografija &nbsp;
+          {t("view_the_photo_gallery")}
           <FontAwesomeIcon icon={faAngleDoubleRight} />
         </button>
       </Link>

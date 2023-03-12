@@ -7,7 +7,7 @@ const CoverText = () => {
   return (
     <div className="cover-text-container move-up-middle">
       <div className="main-name center-abs">Guest house Marina</div>
-      <p>~ Kuća za odmor / Studio apartman ~</p>
+      <p>~{t("holiday_house_studio")}~</p>
 
       <Link to="/kontakt" className="center-abs ">
         <div className="center-abs rezerviraj"> {t("reserve_now")}</div>
