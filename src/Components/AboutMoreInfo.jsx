@@ -1,17 +1,18 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
 
 const AboutMoreInfo = () => {
+  const { t } = useTranslation();
   return (
     <div className="more-info-container">
       <FontAwesomeIcon icon={faInfoCircle} />
       <div className="info">
-        <p>Dozvoljen je boravak kućnih ljubimaca i ne naplaćuje se.</p>
-        <p>Pušenje u apartmanu nije dozvoljeno.</p>
+        <p>{t("pets_allowed")}</p>
+        <p>{t("no_smoking")}</p>
         <p>
-          U ovom objektu nije moguće održavanje momačkih, djevojačkih i sličnih
-          zabava.
+         {t("no_parties")}
         </p>
       </div>
     </div>

@@ -92,28 +92,18 @@ const WhatToVisit = () => {
         </div>
       </div>
       <p className="description">
-        Put do Karlovca moguć je automobilom, vlakom, autobusom i avionom.
-        &nbsp;
-        <b>Zračna luka Franjo Tuđman</b> udaljena je 50 km od objekta. Objekt je
-        smješten uz prometnicu D36 kojom se može doći do Zagreba, glavnog grada
-        Hrvatske, a u blizini objekta je izlaz i ulaz na autoput koji povezuje
-        sve djelove Hrvatske, te su Karlovac i okolica idealno mjesto za odmor
-        od dugog puta.
+        {t("what_to_visit_opis_1")}
+        <b>{t("zagreb_airport")}</b>
+        {t("what_to_visit_opis_2")}
       </p>
       <p className="description">
-        Grad Karlovac i okolica nude brojne događaje tijekom godine, posjete
-        kulturnim i povijesnim znamenitostima, gastronomsku ponudu raznovrsnih
-        restorana, prirodne ljepote ... (<b>Plitvička jezera</b>, Rastoke,&nbsp;
-        <b>Aquarium Aquatika</b>, <b>Žitna lađa</b>...). Za više informacija što
-        nudi Karlovac i okolica molimo pogledati na stranicama{" "}
-        <a href="https://visitkarlovac.hr/">
-          Turističke zajednice Grada Karlovca
-        </a>
-        &nbsp;i&nbsp;
-        <a href="https://visitkarlovaccounty.hr/">
-          Turističke zajednice Karlovačke županije
-        </a>
-        .
+        {t("what_to_visit_opis_3")} (<b>{t("plitvice_lakes")}</b>,
+        Rastoke,&nbsp;
+        <b>{t("aquatika")}</b>, <b>{t("grain_boat")}</b>...).
+        {t("for_more_info")}
+        <a href="https://visitkarlovac.hr/">{t("tur_board_city")} </a>
+        &nbsp;{t("and")}&nbsp;
+        <a href="https://visitkarlovaccounty.hr/">{t("tur_board_county")}</a>.
       </p>
       <BtnMoreDetails url={"/omjestu"} />
     </div>
