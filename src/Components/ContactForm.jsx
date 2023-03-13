@@ -1,7 +1,9 @@
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 const ContactForm = () => {
+  const { t } = useTranslation();
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -30,23 +32,23 @@ const ContactForm = () => {
       <form action="" ref={form} onSubmit={sendEmail}>
         <div className="inputs">
           <div className="input-group">
-            <label htmlFor="name">Ime i prezime *</label>
+            <label htmlFor="name">{t("name_and_surname")} *</label>
             <input type="text" name="name" required />
 
-            <label htmlFor="email">Vaš e-mail *</label>
+            <label htmlFor="email">E-mail*</label>
             <input type="email" name="email" required />
 
-            <label htmlFor="phone">Broj mobitela *</label>
+            <label htmlFor="phone">{t("phone_number")} *</label>
             <input type="text" name="phone" required />
 
-            <label htmlFor="checkin">Datum dolaska</label>
+            <label htmlFor="checkin">{t("date_of_arrival")}</label>
             <input type="date" name="checkin" />
 
-            <label htmlFor="checkout">Datum odlaska</label>
+            <label htmlFor="checkout">{t("departure_date")}</label>
             <input type="date" name="checkout" />
           </div>
           <div className="input-group">
-            <label htmlFor="message">Poruka *</label>
+            <label htmlFor="message">{t("msg")} *</label>
             <textarea
               name="message"
               id="message"
@@ -56,8 +58,7 @@ const ContactForm = () => {
             ></textarea>
           </div>
         </div>
-        <button id="btnSend" type="submit">
-          Kontaktiraj nas
+        <button id="btnSend" type="submit">{t("contact_us")}
         </button>
       </form>
     </div>
