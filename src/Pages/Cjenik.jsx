@@ -1,37 +1,28 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Info from "../Components/Info";
 import PriceTable from "../Components/PriceTable";
 
 const Cjenik = () => {
+  const { t } = useTranslation();
   return (
     <div className="page cjenik">
       <div className="title">
-        <h1>Cjenik</h1>
+        <h1>{t("pricelist-nav")}</h1>
         <hr className="short" />
       </div>
       <PriceTable />
       <div className="text-info">
+        <p>{t("pricelist_info_1")}</p>
+        <p>{t("pricelist_info_2")}</p>
+        <p>{t("pricelist_info_3")}</p>
+        <p>{t("pricelist_info_4")}</p>
+        <p>{t("pricelist_info_5")}</p>
         <p>
-          Cijena je za 1 noć, a u nju je uključeno sve što apartman nudi, bez
-          dodatnih troskova.
-        </p>
-        <p>
-          Dolazak u kuću za odmor / studio apartman Marina je predviđen od 16:00
-          do 20:00, a odlazak do 11:00.
-        </p>
-        <p>Akontacija je cijena jednog noćenja.</p>
-        <p>
-          Otkaz rezervacije do 7 dana prije dolaska - povrat predujma (umanjen
-          za troškove prijenosa).
-        </p>
-        <p>
-          Kasnije otkazivanje rezervacije - nema povrata predujma, ali će biti
-          uključen u Vašu sljedeću rezervaciju u Guest house Marina.
-        </p>
-        <p>
-          Za sve potencijalne nejasnoce i nedoumice molimo da nas&nbsp;
-          <Link to="/kontakt">kontaktirate</Link>.
+          {t("pricelist_info_6")}
+          &nbsp;
+          <Link to="/kontakt">{t("pricelist_info_7")}</Link>.
         </p>
       </div>
       <Info />

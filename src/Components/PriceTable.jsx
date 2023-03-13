@@ -1,13 +1,15 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const PriceTable = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <table>
         <thead>
           <tr>
-            <th>Broj gostiju</th>
-            <th>Standardna cijena po noćenju *</th>
+            <th>{t("number_of_guests")}</th>
+            <th>{t("price_per_night")} *</th>
           </tr>
         </thead>
         <tbody>
@@ -30,10 +32,7 @@ const PriceTable = () => {
         </tbody>
       </table>
       <div className="popust">
-        <p>
-          * Na rezervacije ostvarene putem ove web stranice odobrava se 10%
-          popusta!
-        </p>
+        <p>* {t("discount")}</p>
       </div>
     </div>
   );

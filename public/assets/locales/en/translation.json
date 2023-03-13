@@ -75,5 +75,15 @@
   "river_bath": "river bathing area nearby (swimming/fishing)",
   "pets_allowed": "Pets are allowed and there is no charge.",
   "no_smoking": "Smoking is not allowed in the apartment.",
-  "no_parties": "It is not possible to hold stag, hen and similar parties in this facility."
+  "no_parties": "It is not possible to hold stag, hen and similar parties in this facility.",
+  "pricelist_info_1": "The price is for 1 night, and it includes everything that the apartment offers, without additional costs.",
+  "pricelist_info_2": "Arrival at the studio apartment Marina is scheduled from 16:00 to 20:00, and departure by 11:00.",
+  "pricelist_info_3": "Advance payment is the price of one night.",
+  "pricelist_info_4": "Cancellation of reservation up to 7 days before arrival - refund of advance payment (minus transfer costs).",
+  "pricelist_info_5": "Later cancellation of the reservation - no refund of the deposit, but it will be included in your next reservation at Guest house Marina",
+  "pricelist_info_6": "For all potential ambiguities and doubts, please",
+  "pricelist_info_7": "contact us",
+  "number_of_guests":"Number of guests",
+  "price_per_night":"Standard price per night",
+  "discount":"A 10% discount is granted on reservations made through this website!"
 }
