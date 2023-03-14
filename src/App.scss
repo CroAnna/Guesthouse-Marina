@@ -589,7 +589,7 @@ body {
               resize: vertical;
             }
           }
-          & button {
+          & #btnSend {
             cursor: pointer;
             background-color: var(--middle_wood);
             text-align: center;
@@ -1616,7 +1616,7 @@ body {
                 height: 250px;
               }
             }
-            & button {
+            & #btnSend {
               padding: 10px;
               font-size: 2rem;
             }

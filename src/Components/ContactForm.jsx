@@ -1,10 +1,20 @@
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
 import { useTranslation } from "react-i18next";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {
   const { t } = useTranslation();
   const form = useRef();
+
+  const success_ = () => {
+    toast.success("Uspješno poslano", {});
+  };
+  const error_ = () => {
+    toast.error("Došlo je do pogreške, pokušajte ponovo!", {});
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
@@ -17,11 +27,11 @@ const ContactForm = () => {
       .then(
         (result) => {
           console.log(result.text);
-          //success_();
+          success_();
         },
         (error) => {
           console.log(error.text);
-          //error_();
+          error_();
         }
       );
     form.current.reset();
@@ -58,9 +68,20 @@ const ContactForm = () => {
             ></textarea>
           </div>
         </div>
-        <button id="btnSend" type="submit">{t("contact_us")}
+        <button id="btnSend" type="submit">
+          {t("contact_us")}
         </button>
       </form>
+      <ToastContainer
+        theme="colored"
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        draggable
+      />
     </div>
   );
 };
