@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Imprima&family=Inter:wght@400;500;600;700&display=swap");
-/*
-font-family: 'Alex Brush', cursive;
-font-family: 'Imprima', sans-serif;
-font-family: 'Inter', sans-serif;
-*/
+
 :root {
   --dark_blue: #10242e;
   --middle_blue: #2d4c56;
@@ -12,7 +8,6 @@ font-family: 'Inter', sans-serif;
   --cream_light: #e3e0db;
   --bg_color: #e3e3e3;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -20,18 +15,12 @@ font-family: 'Inter', sans-serif;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-
 html,
 body {
   max-width: 100%;
   overflow-x: hidden;
 }
-
 body {
-  background-color: var(--bg_color);
-}
-
-.page {
   background-color: var(--bg_color);
 }
 
@@ -71,13 +60,10 @@ body {
         letter-spacing: 0.18rem;
         right: 0;
         color: var(--dark_blue);
-
-        // vertical align of div in the middle
         position: absolute;
         top: 50%;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-
         & a {
           padding: 5px;
           text-decoration: none;
@@ -977,7 +963,6 @@ body {
   & .item {
     margin: 20px 0;
     display: flex;
-
     & .icon {
       width: 50px;
       margin-right: 20px;
@@ -1047,9 +1032,7 @@ body {
 @media only screen and (max-width: 1050px) {
   .lang-container {
     & .lang-icons {
-      right: auto;
       left: 0;
-
       & img {
         margin: 15px 5px;
         width: 40px;
@@ -1058,33 +1041,29 @@ body {
   }
   .header {
     & .header-items {
-      display: block;
-      width: 60%;
-      margin: 0 auto;
+      width: 100%;
       & .image {
-        margin: 0 auto;
+        display: flex;
+        justify-content: center;
         & img {
           width: 150px;
-          margin-left: 20%;
+          margin: 0 auto;
         }
       }
       & .mobile {
+        position: relative;
         & .icons {
-          float: right;
-          margin: 5px -10px;
+          position: absolute;
+          right: 3%;
+          z-index: 1;
         }
         & .iconBar {
           &.abs {
-            position: absolute;
-            z-index: 1;
-          }
-          &.fixed {
             position: absolute;
           }
           background-color: var(--middle_wood);
           width: 12px;
           height: 12px;
-          color: var(--lightgreen);
           padding: 20px;
           border-radius: 10px;
           color: var(--bg_color);
@@ -1094,6 +1073,8 @@ body {
         & .nav-bar {
           background-color: var(--light_wood);
           position: relative;
+          width: 100%;
+          z-index: 0;
           & a {
             display: block;
             text-align: center;
@@ -1346,7 +1327,6 @@ body {
         font-size: 3rem;
         display: block;
         text-align: center;
-
         & .info {
           text-align: left;
           margin: 0 20px;

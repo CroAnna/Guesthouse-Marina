@@ -28,12 +28,11 @@ const Header = () => {
             <NavbarMobile />
           </div>
         )}
-        <Link to="/" className="image">
-          <img
-            src={require("../Images/logo_marina.png")}
-            alt="logo-marina"
-          />
-        </Link>
+        <div className="image">
+          <Link to="/">
+            <img src={require("../Images/logo_marina.png")} alt="logo-marina" />
+          </Link>
+        </div>
       </div>
     </div>
   );

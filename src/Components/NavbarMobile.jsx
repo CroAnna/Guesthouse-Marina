@@ -15,28 +15,26 @@ const NavbarMobile = () => {
   };
 
   return (
-    <div className="navigation-mobile">
+    <div>
       <div className="icons">
         <FontAwesomeIcon
           icon={faBars}
           onClick={navHandler}
-          className={openNav ? "hidden" : "iconBar fixed"}
+          className={openNav ? "hidden" : "iconBar"}
         />
         <FontAwesomeIcon
           icon={faX}
           onClick={navHandler}
-          className={openNav ? "iconBar abs" : "hidden"}
+          className={openNav ? "iconBar " : "hidden"}
         />
       </div>
-      <div>
-        <nav className={openNav ? "nav-bar" : "hidden "} onClick={closeNav}>
-          <Link to="/">{t("home-nav")}</Link>
-          <Link to="/oapartmanu">{t("about_app-nav")}</Link>
-          <Link to="/cjenik">{t("pricelist-nav")}</Link>
-          <Link to="/omjestu">{t("about_place-nav")}</Link>
-          <Link to="/kontakt">{t("contact-nav")}</Link>
-        </nav>
-      </div>
+      <nav className={openNav ? "nav-bar" : "hidden"} onClick={closeNav}>
+        <Link to="/">{t("home-nav")}</Link>
+        <Link to="/oapartmanu">{t("about_app-nav")}</Link>
+        <Link to="/cjenik">{t("pricelist-nav")}</Link>
+        <Link to="/omjestu">{t("about_place-nav")}</Link>
+        <Link to="/kontakt">{t("contact-nav")}</Link>
+      </nav>
     </div>
   );
 };
