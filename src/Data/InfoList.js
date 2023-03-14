@@ -9,11 +9,11 @@ import {
 export const infoList = [
     {
         icon: faMapMarkerAlt,
-        info: "Adresa: Zamršje 9, 47000 Karlovac, Hrvatska",
+        info: "info_address",
     },
     {
         icon: faPhoneAlt,
-        info: "Telefon: +385 98 284 532",
+        info: "phone",
     },
     {
         icon: faEnvelope,
@@ -21,10 +21,10 @@ export const infoList = [
     },
     {
         icon: faLongArrowAltRight,
-        info: "Check-in: 16:00-20:00",
+        info: "Check-in: 15:00-20:00 *",
     },
     {
         icon: faLongArrowAltLeft,
-        info: "Check-out: do 11:00",
+        info: "check_out",
     },
 ];

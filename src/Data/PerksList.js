@@ -13,18 +13,18 @@ export const perksList = [
     },
     {
         icon: faWifi,
-        info: "besplatan Wi-Fi",
+        info: "wifi",
     },
     {
         icon: faParking,
-        info: "besplatan parking",
+        info: "parking",
     },
     {
         icon: faTree,
-        info: "priroda",
+        info: "nature",
     },
     {
         icon: faDog,
-        info: "dozvoljeni ljubimci",
+        info: "pets_allowed_info",
     },
 ];
