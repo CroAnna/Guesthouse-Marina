@@ -31,6 +31,7 @@ body {
     right: 15px;
     top: 5px;
     display: flex;
+    z-index: 1;
     cursor: pointer;
     & img {
       margin: 5px;
