@@ -8,23 +8,23 @@ const NavbarDesktop = () => {
   return (
     <div className="navigation-desktop">
       <nav>
-        <NavLink to="/" exact activeClassName="active">
+        <NavLink to="/" exact="true" activeclassname="active">
           {t("home-nav")}
         </NavLink>
         <p>|</p>
-        <NavLink to="/oapartmanu" activeClassName="active">
+        <NavLink to="/oapartmanu" activeclassname="active">
           {t("about_app-nav")}
         </NavLink>
         <p>|</p>
-        <NavLink to="/cjenik" activeClassName="active">
+        <NavLink to="/cjenik" activeclassname="active">
           {t("pricelist-nav")}
         </NavLink>
         <p>|</p>
-        <NavLink to="/omjestu" activeClassName="active">
+        <NavLink to="/omjestu" activeclassname="active">
           {t("about_place-nav")}
         </NavLink>
         <p>|</p>
-        <NavLink to="/kontakt" activeClassName="active">
+        <NavLink to="/kontakt" activeclassname="active">
           {t("contact-nav")}
         </NavLink>
       </nav>

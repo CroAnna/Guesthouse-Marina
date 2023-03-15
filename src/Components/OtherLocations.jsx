@@ -35,6 +35,7 @@ const OtherLocations = () => {
                 src={require("../Images/Locations/Other/gastro.jpg")}
                 alt=""
               />
+              <p className="move-up-middle down">Fotografija je preuzeta</p>
             </div>
             <div className="right">
               <div className="move-up-middle text">

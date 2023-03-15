@@ -1,15 +1,18 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const MainInfo = () => {
   const { t } = useTranslation();
   return (
     <div className="main-info-container">
       <div className="left">
-        <img
-          src={require("../Images/house-photos-collage.png")}
-          alt="collage"
-        />
+        <Link to="/oapartmanu">
+          <img
+            src={require("../Images/house-photos-collage.png")}
+            alt="collage"
+          />
+        </Link>
       </div>
       <div className="right">
         <div className="right-cloud">{t("welcome")}</div>

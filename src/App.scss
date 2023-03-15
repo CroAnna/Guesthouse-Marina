@@ -31,9 +31,10 @@ body {
     right: 15px;
     top: 5px;
     display: flex;
-    z-index: 1;
+
     cursor: pointer;
     & img {
+      z-index: 1;
       margin: 5px;
       width: 40px;
     }
@@ -866,6 +867,11 @@ body {
           margin: 20px;
           position: relative;
           width: 100%;
+          & .down {
+            top: 97%;
+            font-size: 0.5rem;
+            color: var(--cream_light);
+          }
           & p {
             text-align: justify;
             font-size: 1.1rem;
@@ -1055,7 +1061,7 @@ body {
         & .icons {
           position: absolute;
           right: 3%;
-          z-index: 1;
+          z-index: 2;
         }
         & .iconBar {
           &.abs {
@@ -1074,7 +1080,7 @@ body {
           background-color: var(--light_wood);
           position: relative;
           width: 100%;
-          z-index: 0;
+          z-index: 1;
           & a {
             display: block;
             text-align: center;
@@ -1240,14 +1246,20 @@ body {
         }
       }
       & .description {
-        width: 100%;
+        width: 10%;
         font-size: 4.5vw;
         line-height: 150%;
       }
     }
 
     & .btn-detalji-container {
+      width: 100%;
       height: 50px;
+      justify-content: center;
+      display: flex;
+      & .btnDetalji {
+        position: static;
+      }
     }
 
     & .map-container {
@@ -1514,6 +1526,11 @@ body {
             display: block;
             margin: 25px 0;
             position: static;
+            & .down {
+              color: var(--dark_blue);
+              text-align: center;
+              padding: 0;
+            }
             & p {
               padding: 10px 25px;
               line-height: 150%;

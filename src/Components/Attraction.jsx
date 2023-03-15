@@ -17,7 +17,9 @@ const Attraction = ({ attraction }) => {
             src={require(`../Images/Locations/Karlovac/${attraction.imageName}.jpg`)}
             alt=""
           />
-          <p>{attraction.used ? "Fotografija je preuzeta" : null}</p>
+          <p className={attraction.used ? "" : "hidden"}>
+            {t("photo_is_downloaded")}
+          </p>
         </div>
       </a>
     </div>
