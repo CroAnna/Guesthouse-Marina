@@ -1,21 +1,32 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavbarDesktop = () => {
   const { t } = useTranslation();
+
   return (
     <div className="navigation-desktop">
       <nav>
-        <Link to="/">{t("home-nav")}</Link>
+        <NavLink to="/" exact activeClassName="active">
+          {t("home-nav")}
+        </NavLink>
         <p>|</p>
-        <Link to="/oapartmanu">{t("about_app-nav")}</Link>
+        <NavLink to="/oapartmanu" activeClassName="active">
+          {t("about_app-nav")}
+        </NavLink>
         <p>|</p>
-        <Link to="/cjenik">{t("pricelist-nav")}</Link>
+        <NavLink to="/cjenik" activeClassName="active">
+          {t("pricelist-nav")}
+        </NavLink>
         <p>|</p>
-        <Link to="/omjestu">{t("about_place-nav")}</Link>
+        <NavLink to="/omjestu" activeClassName="active">
+          {t("about_place-nav")}
+        </NavLink>
         <p>|</p>
-        <Link to="/kontakt">{t("contact-nav")}</Link>
+        <NavLink to="/kontakt" activeClassName="active">
+          {t("contact-nav")}
+        </NavLink>
       </nav>
     </div>
   );

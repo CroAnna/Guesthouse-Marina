@@ -69,8 +69,7 @@ body {
           padding: 5px;
           text-decoration: none;
           color: var(--dark_blue);
-          & .active {
-            // TODO da se na klik doda/makne ova klasa s elementa
+          &.active {
             color: var(--middle_wood);
           }
         }
