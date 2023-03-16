@@ -1,16 +1,29 @@
-import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const CoverText = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const { t } = useTranslation();
   return (
     <div className="cover-text-container move-up-middle">
-      <div className="main-name center-abs">Guest house Marina</div>
-      <p>~{t("holiday_house_studio")}~</p>
+      <div className="main-name center-abs" data-aos="fade-right">
+        Guest house Marina
+      </div>
+      <p data-aos="fade-right">~{t("holiday_house_studio")}~</p>
 
       <Link to="/kontakt" className="center-abs ">
-        <div className="center-abs rezerviraj"> {t("reserve_now")}</div>
+        <div
+          className="center-abs rezerviraj"
+          data-aos="flip-up"
+          data-aos-delay="700"
+        >
+          {t("reserve_now")}
+        </div>
       </Link>
     </div>
   );

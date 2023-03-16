@@ -1,12 +1,17 @@
-import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const ApartmentContent = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const { t } = useTranslation();
   return (
     <div className="content-container">
       <p className="content-title">{t("app_content")}</p>
-      <div className="groups">
+      <div className="groups" data-aos="fade-up">
         <div className="left">
           <ul>
             <li>{t("kitchen")}</li>

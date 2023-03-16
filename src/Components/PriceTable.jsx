@@ -1,10 +1,15 @@
-import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const PriceTable = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const { t } = useTranslation();
   return (
-    <div>
+    <div data-aos="fade-right">
       <table>
         <thead>
           <tr>

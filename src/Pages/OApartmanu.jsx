@@ -18,8 +18,10 @@ const OApartmanu = () => {
           <AboutText />
           <AboutImageSlider />
         </div>
-        <ApartmentContent />
-        <AboutMoreInfo />
+        <div>
+          <ApartmentContent />
+          <AboutMoreInfo />
+        </div>
       </div>
     </div>
   );

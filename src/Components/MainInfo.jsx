@@ -1,11 +1,15 @@
-import React from "react";
+import Aos from "aos";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 const MainInfo = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const { t } = useTranslation();
   return (
-    <div className="main-info-container">
+    <div className="main-info-container" data-aos="fade-up">
       <div className="left">
         <Link to="/oapartmanu">
           <img

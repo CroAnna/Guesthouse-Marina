@@ -1,14 +1,19 @@
-import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import BtnMoreDetails from "./BtnMoreDetails";
 
 const WhatToVisit = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const { t } = useTranslation();
   return (
     <div className="what-to-visit-container">
       <p>{t("what_to_visit_nearby")}</p>
       <div className="top-part">
-        <div className="table">
+        <div className="table" data-aos="fade-right">
           <table>
             <thead>
               <tr>
@@ -82,7 +87,7 @@ const WhatToVisit = () => {
             </tbody>
           </table>
         </div>
-        <div className="video-responsive">
+        <div className="video-responsive" data-aos="fade-left">
           <iframe
             src="https://www.youtube.com/embed/M_GdkGoeuY4"
             title="Karlovac - destinacijski video"
@@ -91,12 +96,12 @@ const WhatToVisit = () => {
           ></iframe>
         </div>
       </div>
-      <p className="description">
+      <p className="description" data-aos="fade-up">
         {t("what_to_visit_opis_1")}
         <b>{t("zagreb_airport")}</b>
         {t("what_to_visit_opis_2")}
       </p>
-      <p className="description">
+      <p className="description" data-aos="fade-up">
         {t("what_to_visit_opis_3")} (<b>{t("plitvice_lakes")}</b>,
         Rastoke,&nbsp;
         <b>{t("aquatika")}</b>, <b>{t("grain_boat")}</b>...).

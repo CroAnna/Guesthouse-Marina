@@ -1,13 +1,18 @@
-import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const Recica = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const { t } = useTranslation();
   return (
     <div className="recica-container">
       <div className="top-part">
         <div className="split-divs">
-          <div className="old">
+          <div className="old" data-aos="fade-right">
             <div className="color-overlay">
               <img
                 src={require("../Images/Locations/Recica/stara.jpg")}
@@ -19,7 +24,7 @@ const Recica = () => {
               </div>
             </div>
           </div>
-          <div className="new">
+          <div className="new" data-aos="fade-left">
             <img
               src={require("../Images/Locations/Recica/nosnja.jpg")}
               alt=""
@@ -28,7 +33,7 @@ const Recica = () => {
           </div>
         </div>
       </div>
-      <div className="bottom-part">
+      <div className="bottom-part" data-aos="fade-up">
         <div className="split">
           <div className="left">
             <img

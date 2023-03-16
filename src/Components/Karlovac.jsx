@@ -1,15 +1,20 @@
-import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { KarlovacAttractions } from "../Data/KarlovacAttractionsList";
 import Attraction from "./Attraction";
 
 const Karlovac = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const { t } = useTranslation();
   return (
     <div className="karlovac-container">
       <div className="cover">
         <img src={require("../Images/Cover/zvijezda-cover.jpg")} alt="" />
-        <div className="text-container move-up-middle">
+        <div className="text-container move-up-middle" data-aos="fade-up-left">
           <p>{t("karlovac_desc_1")}</p>
           <p>{t("karlovac_desc_2")}</p>
         </div>

@@ -1,10 +1,15 @@
-import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Info from "../Components/Info";
 import PriceTable from "../Components/PriceTable";
 
 const Cjenik = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const { t } = useTranslation();
   return (
     <div className="page cjenik">
@@ -13,7 +18,7 @@ const Cjenik = () => {
         <hr className="short" />
       </div>
       <PriceTable />
-      <div className="text-info">
+      <div className="text-info" data-aos="fade-left">
         <p>{t("pricelist_info_1")}</p>
         <p>{t("pricelist_info_2")}</p>
         <p>{t("pricelist_info_3")}</p>

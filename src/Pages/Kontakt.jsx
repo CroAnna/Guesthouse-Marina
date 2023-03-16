@@ -1,4 +1,6 @@
-import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import BankDetails from "../Components/BankDetails";
@@ -6,6 +8,9 @@ import ContactForm from "../Components/ContactForm";
 import Info from "../Components/Info";
 
 const Kontakt = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const { t } = useTranslation();
   return (
     <div className="page kontakt">
@@ -15,7 +20,7 @@ const Kontakt = () => {
         <hr className="short" />
       </div>
       <div className="step-container">
-        <div className="step-one">
+        <div className="step-one" data-aos="fade-up">
           <div className="text">
             <p className="step-title">{t("step_one")}</p>
             <p>{t("step_one_msg_1")}</p>
@@ -37,7 +42,7 @@ const Kontakt = () => {
             <Info />
           </div>
         </div>
-        <div className="step-two">
+        <div className="step-two" data-aos="fade-up">
           <div className="text">
             <p className="step-title">{t("step_two")}</p>
             <p>{t("step_two_msg_1")}</p>
@@ -46,7 +51,7 @@ const Kontakt = () => {
           </div>
           <BankDetails />
         </div>
-        <div className="step-three">
+        <div className="step-three" data-aos="fade-up">
           <div className="text">
             <p className="step-title">{t("step_three")}</p>
             <p>{t("step_three_msg")}</p>
