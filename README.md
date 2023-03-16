@@ -1,5 +1,5 @@
-# Apartment
-Web application for apartment
+# Apartment Marina 🏡 
+Web application for apartment, with homepage, apartment details, contact form, price details and information about village, nearest city and other interesting locations.
 
 You can view final result here: www.guesthouse-marina.com
 
@@ -14,8 +14,8 @@ Web application for apartment made in React.
 <li>Responsive and modern design (desktop & mobile)</li>
 <li>Contact form connected with owner's Gmail account (EmailJS)</li>
 <li>Multilingual - Croatian & English (i18next) </li>
-<li>Animations</li>
-<li>Toasts</li>
+<li>Animations (Animate On Scroll)</li>
+<li>Toasts (Toastify)</li>
 <li>Image sliders (React Slick)</li>
 </ul>
 
