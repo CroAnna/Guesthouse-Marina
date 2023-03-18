@@ -2,6 +2,7 @@
   "welcome_to_react": "Dobro došal ovde!",
   "reserve_now": "Rezerviraj odmah",
   "holiday_house_studio": " Kuća za odmor / Studio apartman ",
+  "holiday_house_studio_2": "...usporite, odmorite dušu, doživite okolinu, napunite baterije...",
   "home-nav": "Početna",
   "about_app-nav": "O apartmanu",
   "pricelist-nav": "Cjenik",
@@ -82,7 +83,7 @@
   "no_smoking": "Pušenje u apartmanu nije dozvoljeno.",
   "no_parties": " U ovom objektu nije moguće održavanje momačkih, djevojačkih i sličnih zabava.",
   "pricelist_info_1": "Cijena je za 1 noć, a u nju je uključeno sve što apartman nudi, bez dodatnih troskova.",
-  "pricelist_info_2": "  Dolazak u kuću za odmor / studio apartman Marina je predviđen od 16:00 do 20:00, a odlazak do 11:00.",
+  "pricelist_info_2": "  Dolazak u kuću za odmor / studio apartman Marina je predviđen od 15:00 do 20:00, a odlazak do 11:00.",
   "pricelist_info_3": "Akontacija je cijena jednog noćenja.",
   "pricelist_info_4": "Otkaz rezervacije do 7 dana prije dolaska - povrat predujma (umanjen za troškove prijenosa).",
   "pricelist_info_5": "Kasnije otkazivanje rezervacije - nema povrata predujma, ali će biti uključen u Vašu sljedeću rezervaciju u Guest house Marina.",
@@ -165,5 +166,5 @@
   "social_networks": "Društvene mreže",
   "facebook": "Facebook domaćina",
   "phone": "Telefon: +385 98 284 532",
-  "photo_is_downloaded":"Fotografija je preuzeta"
+  "photo_is_downloaded": "Fotografija je preuzeta"
 }

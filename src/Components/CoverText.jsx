@@ -10,17 +10,19 @@ const CoverText = () => {
   }, []);
   const { t } = useTranslation();
   return (
-    <div className="cover-text-container move-up-middle">
+    <div className="cover-text-container ">
+      <p data-aos="fade-right">{t("holiday_house_studio_2")}</p>
       <div className="main-name center-abs" data-aos="fade-right">
         Guest house Marina
       </div>
       <p data-aos="fade-right">~{t("holiday_house_studio")}~</p>
 
-      <Link to="/kontakt" className="center-abs ">
+      <Link to="/kontakt" className="center-abs">
         <div
           className="center-abs rezerviraj"
           data-aos="flip-up"
           data-aos-delay="700"
+          data-aos-anchor="center-center"
         >
           {t("reserve_now")}
         </div>

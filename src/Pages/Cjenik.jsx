@@ -20,7 +20,9 @@ const Cjenik = () => {
       <PriceTable />
       <div className="text-info" data-aos="fade-left">
         <p>{t("pricelist_info_1")}</p>
-        <p>{t("pricelist_info_2")}</p>
+        <p>
+          {t("pricelist_info_2")} {t("check_in_details")}
+        </p>
         <p>{t("pricelist_info_3")}</p>
         <p>{t("pricelist_info_4")}</p>
         <p>{t("pricelist_info_5")}</p>

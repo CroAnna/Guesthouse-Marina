@@ -2,6 +2,7 @@
   "welcome_to_react": "Welcome to React and react-i18next",
   "reserve_now": "Reserve now",
   "holiday_house_studio": " Holiday house / Studio apartment ",
+  "holiday_house_studio_2": "...slow down, rest your soul, experience the environment, recharge your batteries...",
   "home-nav": "Home",
   "about_app-nav": "About apartment",
   "pricelist-nav": "Pricelist",
@@ -83,7 +84,7 @@
   "no_smoking": "Smoking is not allowed in the apartment.",
   "no_parties": "It is not possible to hold stag, hen and similar parties in this facility.",
   "pricelist_info_1": "The price is for 1 night, and it includes everything that the apartment offers, without additional costs.",
-  "pricelist_info_2": "Arrival at the studio apartment Marina is scheduled from 16:00 to 20:00, and departure by 11:00.",
+  "pricelist_info_2": "Arrival at the studio apartment Marina is scheduled from 15:00 to 20:00, and departure by 11:00.",
   "pricelist_info_3": "Advance payment is the price of one night.",
   "pricelist_info_4": "Cancellation of reservation up to 7 days before arrival - refund of advance payment (minus transfer costs).",
   "pricelist_info_5": "Later cancellation of the reservation - no refund of the deposit, but it will be included in your next reservation at Guest house Marina",
@@ -166,5 +167,5 @@
   "social_networks": "Social networks",
   "facebook": "Householder's Facebook",
   "phone": "Telephone: +385 98 284 532",
-  "photo_is_downloaded":"Photo is downloaded"
+  "photo_is_downloaded": "Photo is downloaded"
 }
