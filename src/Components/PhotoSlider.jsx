@@ -54,6 +54,10 @@ export default class PhotoSlider extends Component {
 
     const images = [
       { url: require("../Images/apt1.jpg") },
+      { url: require("../Images/apt4.jpg") },
+      { url: require("../Images/apt5.jpg") },
+      { url: require("../Images/apt6.jpg") },
+      { url: require("../Images/apt9.jpg") },
       { url: require("../Images/apt2.jpg") },
       { url: require("../Images/apt3.jpg") },
     ];
