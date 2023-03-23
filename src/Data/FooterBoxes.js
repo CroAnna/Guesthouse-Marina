@@ -26,7 +26,9 @@ export const footerBoxes = [
                 url: "https://www.booking.com/hotel/hr/studio-apartman-marina-karlovac.hr.html",
                 icon: faBloggerB,
             },
-            { name: "facebook", url: "https://www.facebook.com/marina.frklic", icon: faFacebook },
+            { name: "facebook", url: "https://www.facebook.com/profile.php?id=100090929815009", icon: faFacebook },
+            { name: "facebook_householder", url: "https://www.facebook.com/marina.frklic", icon: faFacebook },
+
         ],
     },
     {
