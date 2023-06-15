@@ -20,19 +20,19 @@ const PriceTable = () => {
         <tbody>
           <tr>
             <td>1</td>
-            <td>58,00 €</td>
+            <td>67,00 €</td>
           </tr>
           <tr>
             <td>2</td>
-            <td>65,00 €</td>
-          </tr>
-          <tr>
-            <td>3</td>
             <td>75,00 €</td>
           </tr>
           <tr>
+            <td>3</td>
+            <td>86,00 €</td>
+          </tr>
+          <tr>
             <td>4</td>
-            <td>78,00 €</td>
+            <td>90,00 €</td>
           </tr>
         </tbody>
       </table>
