@@ -302,7 +302,7 @@ body {
       margin: 0 auto;
       justify-content: center;
       & table {
-        margin: 40px 20px;
+        margin: 8px 20px;
         font-size: 16px;
         background-color: #fff;
         border-collapse: collapse;
@@ -482,7 +482,7 @@ body {
 
 .cjenik {
   & table {
-    margin: 50px auto;
+    margin: 8px auto;
     font-size: 1.2rem;
     text-align: center;
     background-color: #fff;
@@ -1242,7 +1242,7 @@ body {
         display: block;
         width: 100%;
         & table {
-          margin: 30px 0 0 0;
+          margin: 8px 0 0 0;
         }
         & .video-responsive {
           margin: 40px auto;
@@ -1359,7 +1359,7 @@ body {
   }
   .cjenik {
     & table {
-      margin: 10px;
+      margin: 8px;
       font-size: 1.1rem;
       & th {
         background-color: var(--dark_blue);
@@ -1377,6 +1377,7 @@ body {
       padding: 5px 20px;
     }
   }
+
   .omjestu {
     & .title {
       margin: 30px 0;
