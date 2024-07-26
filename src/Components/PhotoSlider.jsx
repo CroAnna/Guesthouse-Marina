@@ -53,11 +53,18 @@ export default class PhotoSlider extends Component {
     }
 
     const images = [
-      { url: require("../Images/apt1.jpg") },
+      { url: require("../Images/apt12.jpg") },
+      { url: require("../Images/apt10.jpg") },
       { url: require("../Images/apt4.jpg") },
+      { url: require("../Images/apt14.jpg") },
+      { url: require("../Images/apt13.jpg") },
+      { url: require("../Images/apt11.jpg") },
+      { url: require("../Images/apt9.jpg") },
+      { url: require("../Images/apt15.jpg") },
+      { url: require("../Images/apt16.jpg") },
       { url: require("../Images/apt5.jpg") },
       { url: require("../Images/apt6.jpg") },
-      { url: require("../Images/apt9.jpg") },
+      { url: require("../Images/apt1.jpg") },
       { url: require("../Images/apt2.jpg") },
       { url: require("../Images/apt3.jpg") },
     ];
