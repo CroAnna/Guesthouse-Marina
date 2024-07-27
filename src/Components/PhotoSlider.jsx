@@ -27,7 +27,7 @@ export default class PhotoSlider extends Component {
         },
         {
           // desktop
-          breakpoint: 2200,
+          breakpoint: 8000,
           settings: {
             variableWidth: true,
           },
@@ -71,9 +71,17 @@ export default class PhotoSlider extends Component {
 
     return (
       <div className="slider-container">
-        <Slider {...settings} style={{ display: "flex" }}>
+        <Slider
+          {...settings}
+          style={{
+            display: "flex",
+            height: "400px",
+          }}
+        >
           {images.map((item, index) => (
-            <div key={index}>
+            <div key={index} className="slider-container-inner">
+              {" "}
+              <span class="helper"></span>
               <img src={item.url} alt="" />
             </div>
           ))}
