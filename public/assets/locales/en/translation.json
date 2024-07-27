@@ -12,7 +12,8 @@
   "main_info_text_1": "Studio apartment Marina is located in Zamršje, a place 13 km east of Karlovac. The facility consists of sleeping, living, dining, cooking and bathroom areas.",
   "main_info_text_2": "The sleeping area contains 2 single beds that can easily be folded into a double bed. The kitchen is equipped with household appliances (dishwasher, oven, hob, electric kettle, refrigerator) and dishes for preparing and serving meals.",
   "main_info_text_3": "The living room is equipped with a corner sofa that can easily be converted into a comfortable extra bed for two people. In the space there is also a flat screen TV, washing machine, air conditioner and a wood stove for a particularly warm atmosphere on cold days.",
-  "main_info_text_4": "For an active vacation, free bicycle rental and a table tennis table are offered. Possible walks and stay in nature. The proximity of the Kupa River offers refreshment in the summer months and is a great place for fishing.",
+  "main_info_text_4": "The outdoor area consists of a covered terrace with a seating area and a barbecue fireplace, an open terrace with a hot tub (jacuzzi), sun loungers and garden furniture, a fenced yard, and a lawn, ideal for pets.",
+  "main_info_text_5": "For an active vacation, free bicycle rental and a table tennis table are offered. Possible walks and stay in nature. The proximity of the Kupa River offers refreshment in the summer months and is a great place for fishing.",
   "info_address": "Address: Zamršje 9, 47000 Karlovac, Croatia",
   "address_city_country": "47000 Karlovac, Croatia",
 
@@ -56,6 +57,7 @@
   "parking": "free parking",
   "nature": "nature",
   "wifi": "free Wi-Fi",
+  "jacuzzi": "jacuzzi",
   "air_conditioning": "air conditioning",
   "two_beds": "2 beds",
   "closet": "closet",

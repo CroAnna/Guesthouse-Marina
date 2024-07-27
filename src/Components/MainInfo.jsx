@@ -25,6 +25,7 @@ const MainInfo = () => {
           <p>{t("main_info_text_2")}</p>
           <p>{t("main_info_text_3")}</p>
           <p>{t("main_info_text_4")}</p>
+          <p>{t("main_info_text_5")}</p>
         </div>
       </div>
     </div>
