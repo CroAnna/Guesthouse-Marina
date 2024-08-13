@@ -25,25 +25,25 @@ const ApartmentContent = () => {
           <ul>
             <li>56 m2</li>
             <li>TV</li>
-            <li>{t("parking")}</li>
+            <li>✨{t("parking")}✨</li>
             <li>{t("wifi")}</li>
+            <li>✨{t("jacuzzi")}✨</li>
             <li>{t("air_conditioning")}</li>
             <li>{t("two_beds")}</li>
             <li>{t("closet")}</li>
             <li>{t("table_and_chairs")}</li>
-            <li>{t("corner_garn")}</li>
-            <li>{t("wash_mach")}</li>
+            <li>{t("wash_mach")}</li> 
+            <li>✨{t("terrace_")}✨</li>
             <li>{t("oven")}</li>
             <li>{t("refrigerator")}</li>
             <li>{t("dishwasher")}</li>
-            <li>{t("kettle")}</li>
+            <li>{t("kettle")}</li> <li>{t("corner_garn")}</li>
             <li>{t("hobs")}</li>
             <li>{t("tableware")}</li>
             <li>{t("wood_stove")}</li>
             <li>{t("shower_cabin")}</li>
             <li>{t("hairdryer")}</li>
-            <li>{t("outdoor_fireplace")}</li>
-            <li>{t("terrace_")}</li>
+            <li>✨{t("outdoor_fireplace")}✨</li>
             <li>{t("bbq_equipment")}</li>
             <li>{t("garden")}</li>
             <li>{t("bicycle_rental")}</li>

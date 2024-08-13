@@ -1,5 +1,5 @@
 # Apartment Marina 🏡 
-Web application for apartment, with homepage, apartment details, contact form, price details and information about village, nearest city and other interesting locations.
+Web application for apartment, with homepage, apartment details, contact form, price details and information about village, nearest city and other interesting locations. All images taken by me.
 
 You can view final result here: www.guesthouse-marina.com
 
@@ -21,6 +21,7 @@ It is mobile and desktop-friendly - having a mobile-friendly app is essential in
 <li>Image sliders (React Slick)</li>
 </ul>
 
+![homepage](https://github.com/user-attachments/assets/c470ac11-d87e-40e6-aebf-992f07be6912)
 
 
 

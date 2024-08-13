@@ -207,7 +207,13 @@ body {
     & .slider-container {
       width: 80%;
       margin: 0 auto;
+      height: 400px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
       & img {
+        // min-height: 400px;
+        // object-fit: cover;
         margin: 0 20px;
         border-radius: 15px;
       }
@@ -1126,7 +1132,7 @@ body {
         }
         & p {
           margin: 20px 0;
-          font-size: 4.5vw;
+          font-size: 16px;
           text-shadow: 2px 2px 10px #474747;
         }
       }
@@ -1295,6 +1301,17 @@ body {
           & img {
             margin: 0 auto;
             border-radius: 5px;
+            vertical-align: middle;
+          }
+
+          & .slider-container-inner {
+            background-color: red;
+          }
+
+          & .helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
           }
         }
       }
