@@ -17,22 +17,8 @@ const Cjenik = () => {
         <h1>{t("pricelist-nav")}</h1>
         <hr className="short" />
       </div>
-      <h3 className="title">
-        Od/from 10.4.2024. do/to 31.5.2024. Od/from 1.10.2024. do/to 31.12.2024.
-        :
-      </h3>
-      <PriceTable
-        price1={"60,00 €"}
-        price2={"75,00 €"}
-        price3={"90,00 €"}
-        price4={"105,00 €"}
-        price5={"65,00 €"}
-        price6={"85,00 €"}
-        price7={"105,00 €"}
-        price8={"125,00 €"}
-      />
 
-      <h3 className="title">Od/from 1.6.2024. do/to 30.9.2024. :</h3>
+      {/* <h3 className="title">Od/from 1.6.2024. do/to 30.9.2024. :</h3> */}
       <PriceTable
         price1={"70,00 €"}
         price2={"85,00 €"}
