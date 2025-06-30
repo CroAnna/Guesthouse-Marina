@@ -21,12 +21,12 @@ const Cjenik = () => {
       <h3 className="title">Od/from 1.5.2025.:</h3>
       <PriceTable
         price1={"70,00 €"}
-        price2={"80,00 €"}
-        price3={"85,00 €"}
-        price4={"100,00 €"}
-        price5={"100,00 €"}
-        price6={"120,00 €"}
-        price7={"115,00 €"}
+        price2={"85,00 €"}
+        price3={"100,00 €"}
+        price4={"115,00 €"}
+        price5={"80,00 €"}
+        price6={"100,00 €"}
+        price7={"120,00 €"}
         price8={"140,00 €"}
       />
 
